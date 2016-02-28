@@ -1,0 +1,14 @@
+#include "gc.h"
+#include "list.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+ 
+void mark_list(List * Linklist){
+  
+  while (Linklist != NULL) {
+    mark_one(Linklist);
+    Linklist = Linklist->next;
+  }
+  
+}

@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include "fstree.h"
+#include "gc.h"
+
+
+
+void mark_fstree(Fstree * froot){
+  
+   
+
+  mark_one(froot->name);
+  mark_one(froot);
+
+  Link * link = froot->links;
+
+  while (link != NULL){
+    
+    mark_one(link);
+
+    if (mark_one(link->fptr) == 0){
+      mark_one(link->fptr->name);
+      mark_fstree(link->fptr);
+    }
+    
+    link = link->next;
+  }
+
+}

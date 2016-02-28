@@ -1,0 +1,56 @@
+Script started on Fri Jan 17 16:29:48 2014
+greywolf:~/csc209labs% ls
+getinfo  getinfo.c  pipes.txt  redirect.txt
+greywolf:~/csc209labs% getinfo
+Please enter your name:
+Alex Chang
+Please enter your classes this term:
+C^?csc^?^?^?^[[3~^[[3~^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[^?^?:Q
+Hi Alex Chang, are you enjoying Ccsc[3~[3~[D[D[D[D[D[D[D[D[D[D[D[D:Q?
+greywolf:~/csc209labs% ls getinfo
+getinfo
+greywolf:~/csc209labs% getinfo
+Please enter your name:
+Alex C'
+Please enter your classes this term:
+CSC209 CSC258 CSC263 CSC207
+Hi Alex C', are you enjoying CSC209?
+greywolf:~/csc209labs% CSC[K[K[KCSC209[K[K[K[K[K[KCSC209[K[K[K[K[K[KCSC258[K[K[K[K[K[Kwget http://www.cdf.toronto.edu/~csc209h/winter/exercises/ex1/getinfo.py[K[K[K[K[K[K[K[K[K[K[K/input
+--2014-01-17 16:39:55--  http://www.cdf.toronto.edu/~csc209h/winter/exercises/ex1/input
+Resolving www.cdf.toronto.edu (www.cdf.toronto.edu)... 128.100.31.101
+Connecting to www.cdf.toronto.edu (www.cdf.toronto.edu)|128.100.31.101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 26
+Saving to: `input'
+
+ 0% [                                                                          ] 0           --.-K/s              100%[=========================================================================>] 26          --.-K/s   in 0s      
+
+2014-01-17 16:39:55 (1.50 MB/s) - `input' saved [26/26]
+
+greywolf:~/csc209labs% wget http://www.cdf.toronto.edu/~csc209h/winter/exercises/ex1/input[K[K[K[K[Kbadinput
+--2014-01-17 16:40:12--  http://www.cdf.toronto.edu/~csc209h/winter/exercises/ex1/badinput
+Resolving www.cdf.toronto.edu (www.cdf.toronto.edu)... 128.100.31.101
+Connecting to www.cdf.toronto.edu (www.cdf.toronto.edu)|128.100.31.101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8
+Saving to: `badinput'
+
+ 0% [                                                                          ] 0           --.-K/s              100%[=========================================================================>] 8           --.-K/s   in 0s      
+
+2014-01-17 16:40:12 (467 KB/s) - `badinput' saved [8/8]
+
+greywolf:~/csc209labs% getinfo < input
+Please enter your name:
+Please enter your classes this term:
+Hi Maria Klawe, are you enjoying CSC209?
+greywolf:~/csc209labs% getinfo < out[K[K[Kinput[24G[55@wget http://www.cdf.toronto.edu/~csc209h/winter/exercises/ex1/bad[94G[86G[3P[91G[86G[3@bad[94G[24G[55Pgetinfo < [39G[34G[Kbadinput
+Please enter your name:
+Please enter your classes this term:
+Error: no classes were entered.
+greywolf:~/csc209labs% getinfo < badinput[34G[3P[39G > out1
+greywolf:~/csc209labs% getinfo < input > out1 [1@&[P[P[1@ >[1@& out1[K2
+greywolf:~/csc209labs% getinfo < input > & out2[42Gout1[K[34G[3@bad[42G[K >& out
+greywolf:~/csc209labs% exit
+exit
+
+Script done on Fri Jan 17 16:53:04 2014

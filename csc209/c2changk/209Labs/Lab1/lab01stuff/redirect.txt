@@ -1,0 +1,5 @@
+wolf:~/csc209labs$ getinfo < input > out1
+wolf:~/csc209labs$ getinfo < input >& out2
+wolf:~/csc209labs$ getinfo < badinput >& out
+
+

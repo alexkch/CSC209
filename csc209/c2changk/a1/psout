@@ -1,0 +1,971 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  24444  2364 ?        Ss   Aug27   0:18 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Aug27   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Aug27   2:42 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    Aug27   0:00 [kworker/u128:0]
+root         8  0.0  0.0      0     0 ?        S    Aug27  12:38 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        S    Aug27  10:29 [rcuos/0]
+root        10  0.0  0.0      0     0 ?        S    Aug27   0:17 [rcuos/1]
+root        11  0.0  0.0      0     0 ?        S    Aug27   4:34 [rcuos/2]
+root        12  0.0  0.0      0     0 ?        S    Aug27   0:14 [rcuos/3]
+root        13  0.0  0.0      0     0 ?        S    Aug27   0:54 [rcuos/4]
+root        14  0.0  0.0      0     0 ?        S    Aug27   0:10 [rcuos/5]
+root        15  0.0  0.0      0     0 ?        S    Aug27   0:33 [rcuos/6]
+root        16  0.0  0.0      0     0 ?        S    Aug27   0:11 [rcuos/7]
+root        17  0.0  0.0      0     0 ?        S    Aug27   0:57 [rcuos/8]
+root        18  0.0  0.0      0     0 ?        S    Aug27   0:47 [rcuos/9]
+root        19  0.0  0.0      0     0 ?        S    Aug27   1:13 [rcuos/10]
+root        20  0.0  0.0      0     0 ?        S    Aug27   0:09 [rcuos/11]
+root        21  0.0  0.0      0     0 ?        S    Aug27   0:15 [rcuos/12]
+root        22  0.0  0.0      0     0 ?        S    Aug27   0:01 [rcuos/13]
+root        23  0.0  0.0      0     0 ?        S    Aug27   0:22 [rcuos/14]
+root        24  0.0  0.0      0     0 ?        S    Aug27   0:08 [rcuos/15]
+root        25  0.0  0.0      0     0 ?        S    Aug27   0:28 [rcuos/16]
+root        26  0.0  0.0      0     0 ?        S    Aug27   0:01 [rcuos/17]
+root        27  0.0  0.0      0     0 ?        S    Aug27   0:36 [rcuos/18]
+root        28  0.0  0.0      0     0 ?        S    Aug27   0:07 [rcuos/19]
+root        29  0.0  0.0      0     0 ?        S    Aug27   0:42 [rcuos/20]
+root        30  0.0  0.0      0     0 ?        S    Aug27   1:05 [rcuos/21]
+root        31  0.0  0.0      0     0 ?        S    Aug27   1:06 [rcuos/22]
+root        32  0.0  0.0      0     0 ?        S    Aug27   0:06 [rcuos/23]
+root        33  0.0  0.0      0     0 ?        S    Aug27   0:58 [rcuos/24]
+root        34  0.0  0.0      0     0 ?        S    Aug27   0:01 [rcuos/25]
+root        35  0.0  0.0      0     0 ?        S    Aug27   0:29 [rcuos/26]
+root        36  0.0  0.0      0     0 ?        S    Aug27   0:06 [rcuos/27]
+root        37  0.0  0.0      0     0 ?        S    Aug27   0:29 [rcuos/28]
+root        38  0.0  0.0      0     0 ?        S    Aug27   0:01 [rcuos/29]
+root        39  0.0  0.0      0     0 ?        S    Aug27   0:40 [rcuos/30]
+root        40  0.0  0.0      0     0 ?        S    Aug27   0:07 [rcuos/31]
+root        41  0.0  0.0      0     0 ?        S    Aug27   0:31 [rcuos/32]
+root        42  0.0  0.0      0     0 ?        S    Aug27   1:32 [rcuos/33]
+root        43  0.0  0.0      0     0 ?        S    Aug27   0:53 [rcuos/34]
+root        44  0.0  0.0      0     0 ?        S    Aug27   0:07 [rcuos/35]
+root        45  0.0  0.0      0     0 ?        S    Aug27   0:14 [rcuos/36]
+root        46  0.0  0.0      0     0 ?        S    Aug27   0:12 [rcuos/37]
+root        47  0.0  0.0      0     0 ?        S    Aug27   0:12 [rcuos/38]
+root        48  0.0  0.0      0     0 ?        S    Aug27   0:04 [rcuos/39]
+root        49  0.0  0.0      0     0 ?        S    Aug27   0:08 [rcuos/40]
+root        50  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/41]
+root        51  0.0  0.0      0     0 ?        S    Aug27   0:25 [rcuos/42]
+root        52  0.0  0.0      0     0 ?        S    Aug27   0:06 [rcuos/43]
+root        53  0.0  0.0      0     0 ?        S    Aug27   0:50 [rcuos/44]
+root        54  0.0  0.0      0     0 ?        S    Aug27   0:50 [rcuos/45]
+root        55  0.0  0.0      0     0 ?        S    Aug27   0:26 [rcuos/46]
+root        56  0.0  0.0      0     0 ?        S    Aug27   0:07 [rcuos/47]
+root        57  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/48]
+root        58  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/49]
+root        59  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/50]
+root        60  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/51]
+root        61  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/52]
+root        62  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/53]
+root        63  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/54]
+root        64  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/55]
+root        65  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/56]
+root        66  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/57]
+root        67  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/58]
+root        68  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/59]
+root        69  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/60]
+root        70  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/61]
+root        71  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/62]
+root        72  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuos/63]
+root        73  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcu_bh]
+root        74  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/0]
+root        75  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/1]
+root        76  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/2]
+root        77  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/3]
+root        78  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/4]
+root        79  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/5]
+root        80  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/6]
+root        81  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/7]
+root        82  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/8]
+root        83  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/9]
+root        84  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/10]
+root        85  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/11]
+root        86  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/12]
+root        87  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/13]
+root        88  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/14]
+root        89  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/15]
+root        90  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/16]
+root        91  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/17]
+root        92  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/18]
+root        93  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/19]
+root        94  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/20]
+root        95  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/21]
+root        96  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/22]
+root        97  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/23]
+root        98  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/24]
+root        99  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/25]
+root       100  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/26]
+root       101  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/27]
+root       102  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/28]
+root       103  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/29]
+root       104  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/30]
+root       105  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/31]
+root       106  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/32]
+root       107  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/33]
+root       108  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/34]
+root       109  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/35]
+root       110  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/36]
+root       111  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/37]
+root       112  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/38]
+root       113  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/39]
+root       114  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/40]
+root       115  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/41]
+root       116  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/42]
+root       117  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/43]
+root       118  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/44]
+root       119  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/45]
+root       120  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/46]
+root       121  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/47]
+root       122  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/48]
+root       123  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/49]
+root       124  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/50]
+root       125  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/51]
+root       126  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/52]
+root       127  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/53]
+root       128  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/54]
+root       129  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/55]
+root       130  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/56]
+root       131  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/57]
+root       132  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/58]
+root       133  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/59]
+root       134  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/60]
+root       135  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/61]
+root       136  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/62]
+root       137  0.0  0.0      0     0 ?        S    Aug27   0:00 [rcuob/63]
+root       138  0.0  0.0      0     0 ?        S    Aug27   0:03 [migration/0]
+root       139  0.0  0.0      0     0 ?        S    Aug27   0:12 [watchdog/0]
+root       140  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/1]
+root       141  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/1]
+root       142  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/1]
+root       144  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/1:0H]
+root       145  0.0  0.0      0     0 ?        S    Aug27   0:11 [watchdog/2]
+root       146  0.0  0.0      0     0 ?        S    Aug27   0:02 [migration/2]
+root       147  0.0  0.0      0     0 ?        S    Aug27   0:06 [ksoftirqd/2]
+root       149  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/2:0H]
+root       150  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/3]
+root       151  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/3]
+root       152  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/3]
+root       154  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/3:0H]
+root       155  0.0  0.0      0     0 ?        S    Aug27   0:11 [watchdog/4]
+root       156  0.0  0.0      0     0 ?        S    Aug27   0:01 [migration/4]
+root       157  0.0  0.0      0     0 ?        S    Aug27   0:06 [ksoftirqd/4]
+root       159  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/4:0H]
+root       160  0.0  0.0      0     0 ?        S    Aug27   0:11 [watchdog/5]
+root       161  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/5]
+root       162  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/5]
+root       164  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/5:0H]
+root       165  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/6]
+root       166  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/6]
+root       167  0.0  0.0      0     0 ?        S    Aug27   0:03 [ksoftirqd/6]
+root       169  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/6:0H]
+root       170  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/7]
+root       171  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/7]
+root       172  0.0  0.0      0     0 ?        S    Aug27   0:03 [ksoftirqd/7]
+root       174  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/7:0H]
+root       175  0.0  0.0      0     0 ?        S    Aug27   0:11 [watchdog/8]
+root       176  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/8]
+root       177  0.0  0.0      0     0 ?        S    Aug27   0:08 [ksoftirqd/8]
+root       179  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/8:0H]
+root       180  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/9]
+root       181  0.0  0.0      0     0 ?        S    Aug27   0:05 [migration/9]
+root       182  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/9]
+root       184  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/9:0H]
+root       185  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/10]
+root       186  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/10]
+root       187  0.0  0.0      0     0 ?        S    Aug27   0:13 [ksoftirqd/10]
+root       189  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/10:0H]
+root       190  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/11]
+root       191  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/11]
+root       192  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/11]
+root       194  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/11:0H]
+root       195  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/12]
+root       196  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/12]
+root       197  0.0  0.0      0     0 ?        S    Aug27   0:09 [ksoftirqd/12]
+root       199  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/12:0H]
+root       201  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/13]
+root       202  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/13]
+root       203  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/13]
+root       205  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/13:0H]
+root       206  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/14]
+root       207  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/14]
+root       208  0.0  0.0      0     0 ?        S    Aug27   0:12 [ksoftirqd/14]
+root       210  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/14:0H]
+root       211  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/15]
+root       212  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/15]
+root       213  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/15]
+root       215  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/15:0H]
+root       216  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/16]
+root       217  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/16]
+root       218  0.0  0.0      0     0 ?        S    Aug27   0:14 [ksoftirqd/16]
+root       220  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/16:0H]
+root       221  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/17]
+root       222  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/17]
+root       223  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/17]
+root       225  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/17:0H]
+root       226  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/18]
+root       227  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/18]
+root       228  0.0  0.0      0     0 ?        S    Aug27   0:07 [ksoftirqd/18]
+root       230  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/18:0H]
+root       231  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/19]
+root       232  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/19]
+root       233  0.0  0.0      0     0 ?        S    Aug27   0:03 [ksoftirqd/19]
+root       235  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/19:0H]
+root       236  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/20]
+root       237  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/20]
+root       238  0.0  0.0      0     0 ?        S    Aug27   0:12 [ksoftirqd/20]
+root       240  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/20:0H]
+root       241  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/21]
+root       242  0.0  0.0      0     0 ?        S    Aug27   0:10 [migration/21]
+root       243  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/21]
+root       245  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/21:0H]
+root       246  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/22]
+root       247  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/22]
+root       248  0.0  0.0      0     0 ?        S    Aug27   0:13 [ksoftirqd/22]
+root       250  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/22:0H]
+root       251  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/23]
+root       252  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/23]
+root       253  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/23]
+root       255  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/23:0H]
+root       256  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/24]
+root       257  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/24]
+root       258  0.0  0.0      0     0 ?        S    Aug27   0:21 [ksoftirqd/24]
+root       260  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/24:0H]
+root       262  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/25]
+root       263  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/25]
+root       264  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/25]
+root       266  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/25:0H]
+root       267  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/26]
+root       268  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/26]
+root       269  0.0  0.0      0     0 ?        S    Aug27   0:14 [ksoftirqd/26]
+root       271  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/26:0H]
+root       272  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/27]
+root       273  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/27]
+root       274  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/27]
+root       276  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/27:0H]
+root       277  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/28]
+root       278  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/28]
+root       279  0.0  0.0      0     0 ?        S    Aug27   0:10 [ksoftirqd/28]
+root       281  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/28:0H]
+root       282  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/29]
+root       283  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/29]
+root       284  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/29]
+root       286  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/29:0H]
+root       287  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/30]
+root       288  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/30]
+root       289  0.0  0.0      0     0 ?        S    Aug27   0:11 [ksoftirqd/30]
+root       291  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/30:0H]
+root       292  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/31]
+root       293  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/31]
+root       294  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/31]
+root       296  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/31:0H]
+root       297  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/32]
+root       298  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/32]
+root       299  0.0  0.0      0     0 ?        S    Aug27   0:10 [ksoftirqd/32]
+g2elenit   300  0.0  0.0   3292   868 pts/59   Ss+  18:32   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/59
+root       301  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/32:0H]
+root       302  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/33]
+root       303  0.0  0.0      0     0 ?        S    Aug27   0:06 [migration/33]
+root       304  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/33]
+root       306  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/33:0H]
+root       307  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/34]
+root       308  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/34]
+root       309  0.0  0.0      0     0 ?        S    Aug27   0:07 [ksoftirqd/34]
+root       311  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/34:0H]
+root       312  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/35]
+root       313  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/35]
+root       314  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/35]
+root       316  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/35:0H]
+root       317  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/36]
+root       318  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/36]
+root       319  0.0  0.0      0     0 ?        S    Aug27   0:03 [ksoftirqd/36]
+root       321  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/36:0H]
+root       323  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/37]
+root       324  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/37]
+root       325  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/37]
+root       327  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/37:0H]
+root       328  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/38]
+root       329  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/38]
+root       330  0.0  0.0      0     0 ?        S    Aug27   0:04 [ksoftirqd/38]
+root       332  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/38:0H]
+root       333  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/39]
+root       334  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/39]
+root       335  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/39]
+root       337  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/39:0H]
+root       338  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/40]
+root       339  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/40]
+root       340  0.0  0.0      0     0 ?        S    Aug27   0:03 [ksoftirqd/40]
+root       342  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/40:0H]
+root       343  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/41]
+root       344  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/41]
+root       345  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/41]
+root       347  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/41:0H]
+root       348  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/42]
+root       349  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/42]
+root       350  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/42]
+root       351  0.0  0.0      0     0 ?        S    Aug27   0:00 [kworker/42:0]
+root       352  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/42:0H]
+root       353  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/43]
+root       354  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/43]
+root       355  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/43]
+root       357  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/43:0H]
+root       358  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/44]
+root       359  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/44]
+root       360  0.0  0.0      0     0 ?        S    Aug27   0:01 [ksoftirqd/44]
+root       361  0.0  0.0      0     0 ?        S    Aug27   0:00 [kworker/44:0]
+root       362  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/44:0H]
+root       363  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/45]
+root       364  0.0  0.0      0     0 ?        S    Aug27   0:05 [migration/45]
+root       365  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/45]
+root       367  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/45:0H]
+root       368  0.0  0.0      0     0 ?        S    Aug27   0:10 [watchdog/46]
+root       369  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/46]
+root       370  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/46]
+root       371  0.0  0.0      0     0 ?        S    Aug27   0:00 [kworker/46:0]
+root       372  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/46:0H]
+root       373  0.0  0.0      0     0 ?        S    Aug27   0:09 [watchdog/47]
+root       374  0.0  0.0      0     0 ?        S    Aug27   0:00 [migration/47]
+root       375  0.0  0.0      0     0 ?        S    Aug27   0:00 [ksoftirqd/47]
+root       377  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/47:0H]
+root       378  0.0  0.0      0     0 ?        S<   Aug27   0:00 [khelper]
+root       379  0.0  0.0      0     0 ?        S    Aug27   0:00 [kdevtmpfs]
+root       380  0.0  0.0      0     0 ?        S<   Aug27   0:00 [netns]
+root       381  0.0  0.0      0     0 ?        S<   Aug27   0:00 [writeback]
+root       382  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kintegrityd]
+root       383  0.0  0.0      0     0 ?        S<   Aug27   0:00 [bioset]
+root       384  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kworker/u133:0]
+root       389  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kblockd]
+root       390  0.0  0.0      0     0 ?        S<   Aug27   0:00 [ata_sff]
+root       391  0.0  0.0      0     0 ?        S    Aug27   5:46 [khubd]
+root       392  0.0  0.0      0     0 ?        S<   Aug27   0:00 [md]
+root       393  0.0  0.0      0     0 ?        S<   Aug27   0:00 [devfreq_wq]
+root       397  0.0  0.0      0     0 ?        S    Aug27   0:05 [khungtaskd]
+root       398  0.0  0.0      0     0 ?        S    Aug27   0:00 [kswapd0]
+root       399  0.0  0.0      0     0 ?        S    Aug27   0:00 [kswapd2]
+root       400  0.0  0.0      0     0 ?        S    Aug27   0:00 [kswapd4]
+root       401  0.0  0.0      0     0 ?        S    Aug27   0:00 [kswapd6]
+root       402  0.0  0.0      0     0 ?        SN   Aug27   0:00 [ksmd]
+root       403  0.0  0.0      0     0 ?        SN   Aug27   0:59 [khugepaged]
+root       404  0.0  0.0      0     0 ?        S    Aug27   0:00 [fsnotify_mark]
+root       405  0.0  0.0      0     0 ?        S    Aug27   0:00 [ecryptfs-kthrea]
+root       406  0.0  0.0      0     0 ?        S<   Aug27   0:00 [crypto]
+root       408  0.0  0.0  96732  3804 ?        Ss   18:33   0:00 sshd: g2elenit [priv]
+g2elenit   413  0.0  0.0  96856  2324 ?        S    18:33   0:00 sshd: g2elenit@notty
+g2elenit   414  0.0  0.0  12780   920 ?        Ss   18:33   0:00 /usr/lib/openssh/sftp-server
+root       418  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kthrotld]
+root       438  0.0  0.0  96728  3872 ?        Ss   18:34   0:00 sshd: c4jainar [priv]
+c4jainar   442  0.0  0.0  96728  1768 ?        S    18:34   0:00 sshd: c4jainar@pts/66
+c4jainar   443  0.0  0.0  18268  2136 pts/66   Ss   18:34   0:00 -tcsh
+root       444  0.0  0.0      0     0 ?        S<   Aug27   0:00 [deferwq]
+root       445  0.0  0.0      0     0 ?        S<   Aug27   0:00 [charger_manager]
+root       655  0.0  0.0  96728  3868 ?        Ss   18:37   0:00 sshd: g4yixiu [priv]
+g4yixiu    674  0.0  0.0  96728  1776 ?        S    18:37   0:00 sshd: g4yixiu@pts/71
+g4yixiu    675  0.0  0.0  18240  2064 pts/71   Ss   18:37   0:00 -tcsh
+root       685  0.0  0.0  94648  3896 ?        Ss   18:37   0:00 sshd: g3laylyo [priv]
+g3laylyo   710  0.0  0.0  94648  1748 ?        S    18:37   0:00 sshd: g3laylyo@pts/74
+g3laylyo   713  0.0  0.0  18128  2104 pts/74   Ss   18:37   0:00 -bash
+root       730  0.0  0.0      0     0 ?        S    Aug27   0:00 [scsi_eh_0]
+root       734  0.0  0.0      0     0 ?        S    Aug27   0:00 [scsi_eh_1]
+root       748  0.0  0.0      0     0 ?        S    Aug27   0:00 [scsi_eh_2]
+root       749  0.0  0.0      0     0 ?        S    Aug27   0:00 [scsi_eh_3]
+root       750  0.0  0.0      0     0 ?        S    Aug27   0:00 [scsi_eh_4]
+root       751  0.0  0.0      0     0 ?        S    Aug27   0:00 [scsi_eh_5]
+root       764  0.0  0.0      0     0 ?        S<   Aug27   0:00 [raid5wq]
+root       820  0.0  0.0      0     0 ?        S    Aug27   0:39 [kworker/46:1]
+root       821  0.0  0.0      0     0 ?        S    Aug27   0:06 [kworker/15:1]
+root       826  0.0  0.0      0     0 ?        S<   Aug27   0:00 [bioset]
+root       828  0.0  0.0      0     0 ?        S    Aug27  18:15 [md0_raid1]
+root       840  0.0  0.0      0     0 ?        S    Aug27   0:07 [kworker/45:1]
+root       872  0.0  0.0      0     0 ?        S    Aug27   0:12 [jbd2/md0p2-8]
+root       873  0.0  0.0      0     0 ?        S<   Aug27   0:00 [ext4-rsv-conver]
+root       892  0.0  0.0      0     0 ?        S    Aug27   0:03 [kworker/47:1]
+root       970  0.0  0.0      0     0 ?        S    Aug27   0:25 [jbd2/md0p5-8]
+root       971  0.0  0.0      0     0 ?        S<   Aug27   0:00 [ext4-rsv-conver]
+root      1030  0.0  0.0      0     0 ?        S    Aug27   1:08 [jbd2/md0p4-8]
+root      1038  0.0  0.0      0     0 ?        S<   Aug27   0:00 [ext4-rsv-conver]
+root      1097  0.0  0.0      0     0 ?        S    Aug27   0:03 [jbd2/md0p6-8]
+root      1102  0.0  0.0      0     0 ?        S<   Aug27   0:00 [ext4-rsv-conver]
+root      1185  0.0  0.0      0     0 ?        S    Aug27   0:01 [kworker/43:1]
+root      1191  0.0  0.0      0     0 ?        S<   Aug27   0:00 [rpciod]
+root      1192  0.0  0.0  96728  3864 ?        Ss   Sep04   0:00 sshd: iordan [priv] 
+iordan    1196  0.0  0.0  96728  1748 ?        S    Sep04   0:00 sshd: iordan@pts/0  
+iordan    1197  0.0  0.0  18164  1996 pts/0    Ss+  Sep04   0:00 -bash
+root      1246  0.0  0.0  96732  3832 ?        Ss   18:39   0:00 sshd: g3tdirty [priv]
+g3tdirty  1250  0.0  0.0  96888  1904 ?        S    18:39   0:00 sshd: g3tdirty@notty
+g3tdirty  1251  0.0  0.0  17780  1372 ?        Ss   18:39   0:00 tcsh -c /usr/lib/openssh/sftp-server
+g3tdirty  1253  0.0  0.0  12912   952 ?        S    18:39   0:00 /usr/lib/openssh/sftp-server
+g4yixiu   1265  0.0  0.0  41532  3020 pts/71   S+   18:39   0:00 ssh dbsrv1.cdf.toronto.edu
+root      1285  0.0  0.0      0     0 ?        S<   Aug27   0:00 [edac-poller]
+root      1306  0.0  0.0      0     0 ?        S<   Aug27   0:00 [nfsiod]
+root      1311  0.0  0.0      0     0 ?        S<   Aug27   0:00 [kpsmoused]
+72        1320  0.0  0.0  24432  1800 ?        Ss   Aug27   0:03 dbus-daemon --system --fork --activation=upstart
+root      1331  0.0  0.0  21196  1704 ?        Ss   Aug27   0:04 /usr/sbin/bluetoothd
+root      1334  0.0  0.0  25584   840 ?        Ss   Aug27   0:02 rpc.idmapd
+root      1343  0.0  0.0      0     0 ?        S<   Aug27   0:00 [krfcommd]
+root      1375  0.0  0.0  96736  3844 ?        Ss   18:40   0:00 sshd: g3tdirty [priv]
+g3tdirty  1379  0.0  0.0  96736  1768 ?        S    18:40   0:00 sshd: g3tdirty@pts/24
+g3tdirty  1380  0.0  0.0  18768  2592 pts/24   Ss+  18:40   0:00 -tcsh
+root      1415  0.0  0.0      0     0 ?        S    Sep20   0:49 [kworker/25:1]
+root      1477  0.0  0.0  96728  3892 ?        Ss   Sep13   0:00 sshd: norman [priv] 
+norman    1481  0.0  0.0  96848  1996 ?        S    Sep13   0:01 sshd: norman@pts/12 
+norman    1482  0.0  0.0  17968  1776 pts/12   Ss+  Sep13   0:00 -bash
+root      1496  0.0  0.0  19208  1088 ?        Ss   Aug27   0:05 rpcbind -w
+statd     1578  0.0  0.0  21576  1532 ?        Ss   Aug27   0:00 rpc.statd -L
+root      1579  0.0  0.0  15196   420 ?        S    Aug27   0:00 upstart-socket-bridge --daemon
+g3laylyo  1623  0.0  0.0  43612  3108 pts/74   S+   18:45   0:00 ssh g3laylyo@cdf.utoronto.ca
+root      1624  0.0  0.0  94652  3892 ?        Ss   18:45   0:00 sshd: g3laylyo [priv]
+g3laylyo  1631  0.0  0.0  94652  1744 ?        S    18:45   0:00 sshd: g3laylyo@pts/56
+g3laylyo  1632  0.0  0.0  18128  2076 pts/56   Ss   18:45   0:00 -bash
+root      1647  0.0  0.0  50044  2780 ?        Ss   Aug27   0:12 /usr/sbin/sshd -D
+root      1687  0.0  0.0  12940   972 tty4     Ss+  Aug27   0:00 /sbin/getty -8 38400 tty4
+root      1691  0.0  0.0  12940   968 tty5     Ss+  Aug27   0:00 /sbin/getty -8 38400 tty5
+root      1701  0.0  0.0  12936   964 tty2     Ss+  Aug27   0:00 /sbin/getty -8 38400 tty2
+root      1702  0.0  0.0  12940   968 tty3     Ss+  Aug27   0:00 /sbin/getty -8 38400 tty3
+root      1704  0.0  0.0   4408   612 ?        Ss   Aug27   0:00 /bin/sh /usr/bin/svscanboot
+root      1708  0.0  0.0  12940   964 tty6     Ss+  Aug27   0:00 /sbin/getty -8 38400 tty6
+root      1716  0.0  0.0  14976  1012 ?        Ss   Aug27   0:00 /usr/sbin/xinetd -dontfork -pidfile /var/run/xinetd.pid -stayalive
+root      1718  0.0  0.0   4348   488 ?        S    Aug27   1:15 svscan /etc/service
+root      1719  0.0  0.0   4164   352 ?        S    Aug27   0:00 readproctitle service errors: ................................................................................................................................................................................................................................................................................................................................................................................................................
+root      1722  0.0  0.0  19120  1036 ?        Ss   Aug27   0:14 cron
+root      1727  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise ntpd
+root      1728  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise log
+root      1729  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise smartd
+root      1730  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise log
+root      1731  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise publicfile-httpd
+root      1732  0.0  0.0   4176   352 ?        S    Aug27   0:00 supervise log
+root      1734  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise cfenvd
+root      1735  0.0  0.0   4176   352 ?        S    Aug27   0:00 supervise log
+root      1736  0.0  0.0   4176   352 ?        S    Aug27   0:00 supervise qmail-send
+root      1737  0.0  0.0   4176   352 ?        S    Aug27   0:00 supervise log
+root      1738  0.0  0.0   4176   352 ?        S    Aug27   0:00 supervise cfexecd
+root      1739  0.0  0.0   4176   356 ?        S    Aug27   0:00 supervise log
+root      1740  0.0  0.0  27380  3280 ?        S    Aug27   4:27 cfenvd -F
+nobody    1741  0.0  0.0   4312   356 ?        S    Aug27   0:00 logger -p daemon.err -t cfenvd
+root      1743  0.0  0.0  19660  2304 ?        S    Aug27   0:03 smartd --no-fork --quit=errors --interval=1800 --configfile=/etc/smartd.conf --logfacility=daemon --pidfile=/var/run/smartd.pid
+nobody    1744  0.0  0.0   4312   352 ?        S    Aug27   0:00 logger -i -t smartd -p daemon.info
+root      1745  0.0  0.0   5236   496 ?        S    Aug27   0:00 tcpserver -vDRHl0 -b50 -c100 128.100.31.200 80 httpd /var/publicfile/file
+nobody    1746  0.0  0.0   4312   628 ?        S    Aug27   0:00 logger -i -t publicfile-httpd -p daemon.info
+nobody    1747  0.0  0.0   4312   628 ?        S    Aug27   0:00 logger -i -t ntpd -p daemon.info
+nobody    1750  0.0  0.0   4312   632 ?        S    Aug27   0:00 logger -p daemon.err -t cfexecd
+qmaill    1751  0.0  0.0   2156   484 ?        S    Aug27   0:00 splogger qmail
+qmails    1752  0.0  0.0   2180   400 ?        S    Aug27   0:00 qmail-send
+root      1775  0.0  0.0 579720  2140 ?        Ssl  Aug27   2:34 /usr/sbin/automount
+root      1781  0.0  0.0   5408  1920 ?        S    Aug27  18:39 /usr/sbin/and
+root      1784  0.0  0.0   2164   276 ?        S    Aug27   0:00 qmail-lspawn |dot-forward .forward?|preline procmail
+qmailr    1785  0.0  0.0   2160   296 ?        S    Aug27   0:00 qmail-rspawn
+qmailq    1786  0.0  0.0   2144   364 ?        S    Aug27   0:00 qmail-clean
+qmails    1787  0.0  0.0   2168   396 ?        S    Aug27   0:00 qmail-todo
+qmailq    1788  0.0  0.0   2144   360 ?        S    Aug27   0:00 qmail-clean
+daemon    1853  0.0  0.0  30880   668 ?        Ss   Aug27  23:26 lpd Waiting  
+root      1889  0.0  0.0      0     0 ?        S<   Aug27   0:00 [nfsd4]
+root      1890  0.0  0.0      0     0 ?        S<   Aug27   0:00 [nfsd4_callbacks]
+root      1891  0.0  0.0      0     0 ?        S    Aug27   0:00 [lockd]
+root      1894  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1895  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1896  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1897  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1898  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1899  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1900  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1901  0.0  0.0      0     0 ?        S    Aug27   0:00 [nfsd]
+root      1905  0.0  0.0  24016   952 ?        Ss   Aug27   0:00 /usr/sbin/rpc.mountd --manage-gids
+root      1949  0.0  0.0  13368   812 ?        Ss   Aug27   0:00 /sbin/mdadm --monitor --pid-file /var/run/mdadm/monitor.pid --daemonise --scan --syslog
+root      1971  0.0  0.0  96736  3852 ?        Ss   18:53   0:00 sshd: g3halims [priv]
+g3halims  1977  0.0  0.0  96736  1772 ?        S    18:53   0:00 sshd: g3halims@pts/78
+g3halims  1978  0.0  0.0  18104  2044 pts/78   Ss   18:53   0:00 -bash
+g3halims  1986  0.0  0.0  41532  3020 pts/78   S+   18:53   0:00 ssh dbsrv1
+g3laylyo  1998  0.0  0.0  41532  3020 pts/56   S+   18:54   0:00 ssh dbsrv1.cdf.toronto.edu
+root      2005  0.0  0.0  12940   964 tty1     Ss+  Aug27   0:00 /sbin/getty -8 38400 tty1
+root      2159  0.0  0.0      0     0 ?        S    04:29   0:00 [kworker/u130:0]
+root      2216  0.0  0.0      0     0 ?        S    04:29   0:00 [kworker/u131:3]
+root      2258  0.0  0.0      0     0 ?        S    Sep20   0:00 [kworker/25:2]
+root      2315  0.0  0.0  96728  3860 ?        Ss   18:56   0:00 sshd: g3kimdon [priv]
+g3kimdon  2319  0.0  0.0  96728  1768 ?        S    18:56   0:00 sshd: g3kimdon@pts/26
+g3kimdon  2320  0.0  0.0  18304  2152 pts/26   Ss   18:56   0:00 -tcsh
+root      2373  0.0  0.0      0     0 ?        S    Sep23   0:21 [kworker/3:1]
+root      2487  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/17:2]
+root      2534  0.0  0.0  96732  3864 ?        Ss   18:58   0:00 sshd: c4geerol [priv]
+c4geerol  2551  0.0  0.0  96732  1892 ?        S    18:59   0:00 sshd: c4geerol@pts/48
+c4geerol  2552  0.0  0.0  18592  2464 pts/48   Ss   18:59   0:00 -tcsh
+c4jainar  2568  0.0  0.0  41532  3020 pts/66   S+   18:59   0:00 ssh dbsrv1
+root      2598  0.0  0.0  96732  3860 ?        Ss   18:59   0:00 sshd: c4geerol [priv]
+c4geerol  2612  0.0  0.0  96856  1956 ?        S    18:59   0:00 sshd: c4geerol@pts/69
+c4geerol  2613  0.0  0.0  18264  2136 pts/69   Ss   18:59   0:00 -tcsh
+g3kimdon  2783  0.0  0.0  41532  3024 pts/26   S+   19:01   0:00 ssh dbsrv1.cdf.toronto.edu
+root      2788  0.0  0.0  96732  3868 ?        Ss   19:01   0:00 sshd: c2teshom [priv]
+c2teshom  2794  0.0  0.0  96732  1888 ?        S    19:01   0:00 sshd: c2teshom@pts/62
+c2teshom  2795  0.0  0.0  18152  2092 pts/62   Ss   19:01   0:00 -bash
+root      2800  0.0  0.0  96732  3860 ?        Ss   19:01   0:00 sshd: g3bisogn [priv]
+g3bisogn  2806  0.1  0.0  97312  2432 ?        S    19:01   0:07 sshd: g3bisogn@pts/72
+g3bisogn  2807  0.0  0.0  18140  2128 pts/72   Ss+  19:01   0:00 -bash
+c2teshom  2815  0.0  0.0  41532  3020 pts/62   S+   19:01   0:00 ssh dbsrv1.cdf.toronto.edu
+g3bisogn  2819  0.0  0.0   2324   760 pts/72   S    19:01   0:00 /local/lib/eclipse/eclipse
+g3bisogn  2865  2.2  0.3 803180 239688 pts/72  Sl   19:01   1:20 /local/lib/java/bin/java -Xms40m -Xmx256m -XX:MaxPermSize=256m -jar /local/packages/eclipse-3.5.1//plugins/org.eclipse.equinox.launcher_1.0.201.R35x_v20090715.jar -os linux -ws gtk -arch x86 -showsplash -launcher /local/packages/eclipse-3.5.1/eclipse -name Eclipse --launcher.library /local/packages/eclipse-3.5.1//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_1.0.200.v20090520/eclipse_1206.so -startup /local/packages/eclipse-3.5.1//plugins/org.eclipse.equinox.launcher_1.0.201.R35x_v20090715.jar -exitdata 458002 -vm /local/bin/X11/java -vmargs -Xms40m -Xmx256m -XX:MaxPermSize=256m -jar /local/packages/eclipse-3.5.1//plugins/org.eclipse.equinox.launcher_1.0.201.R35x_v20090715.jar
+root      2875  0.0  0.0  96728  3864 ?        Ss   Sep28   0:00 sshd: c4bhanda [priv]
+c4bhanda  2882  0.0  0.0  96888  1768 ?        S    Sep28   0:00 sshd: c4bhanda@pts/54
+c4bhanda  2883  0.0  0.0  18072  1956 pts/54   Ss   Sep28   0:00 -bash
+c4bhanda  2921  0.0  0.0  41664  3024 pts/54   S+   Sep28   0:00 ssh dbsrv1.cdf.toronto.edu
+root      3010  0.0  0.0  96728  3860 ?        Ss   Sep28   0:00 sshd: c4bhanda [priv]
+c4bhanda  3015  0.0  0.0  96888  1768 ?        S    Sep28   0:00 sshd: c4bhanda@pts/29
+c4bhanda  3017  0.0  0.0  18080  2032 pts/29   Ss   Sep28   0:00 -bash
+g0dbloem  3267  0.0  0.0  26356  1800 ?        Ss   Sep10   1:16 tmux new-session
+g0dbloem  3268  0.0  0.0  18176  2124 pts/23   Ss+  Sep10   0:00 /var/shell/bash
+c4bhanda  3318  0.0  0.0  41532  3020 pts/29   S+   Sep28   0:00 ssh dbsrv1
+root      3337  0.0  0.0      0     0 ?        S<   Sep28   0:00 [kworker/u136:2]
+root      3375  0.0  0.0  96732  3884 ?        Ss   19:09   0:00 sshd: g3bevacq [priv]
+g3bevacq  3380  0.0  0.0  96732  1760 ?        S    19:09   0:00 sshd: g3bevacq@pts/25
+g3bevacq  3381  0.0  0.0  18144  2100 pts/25   Ss   19:09   0:00 -bash
+root      3726  0.0  0.0  96736  3872 ?        Ss   19:13   0:00 sshd: g3laylyo [priv]
+g3laylyo  3744  0.0  0.0  96892  1776 ?        S    19:13   0:00 sshd: g3laylyo@pts/57
+g3laylyo  3745  0.0  0.0  18128  1924 pts/57   Ss   19:13   0:00 -bash
+g3laylyo  3757  0.0  0.0  41664  3016 pts/57   S+   19:14   0:00 ssh dbsrv1
+root      3795  0.0  0.0  96736  3852 ?        Ss   19:15   0:00 sshd: g3chowju [priv]
+g3chowju  3805  0.0  0.0  96736  1772 ?        S    19:15   0:00 sshd: g3chowju@pts/77
+g3chowju  3806  0.0  0.0  18144  1944 pts/77   Ss   19:15   0:00 -tcsh
+g3bevacq  3811  0.0  0.0 170140  8184 pts/25   Sl+  19:15   0:00 vim mymemory.c
+c4geerol  3813  0.1  0.0 170112  8544 pts/48   Sl+  19:15   0:04 vim mymalloc.c
+g3chowju  3816  0.0  0.0  41532  3024 pts/77   S+   19:15   0:00 ssh dbsrv1
+root      4057  0.0  0.0      0     0 ?        S<   Sep05   0:00 [xfsalloc]
+root      4059  0.0  0.0      0     0 ?        S<   Sep05   0:00 [xfs_mru_cache]
+root      4060  0.0  0.0      0     0 ?        S<   Sep05   0:00 [xfslogd]
+root      4064  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsIO]
+root      4065  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4066  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4067  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4068  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4069  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4070  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4071  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4072  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4073  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4074  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4075  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4076  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4077  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4078  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4079  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4080  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4081  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4082  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4083  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4084  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4085  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4086  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4087  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4088  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4089  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4090  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4091  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4092  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4093  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4094  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4095  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4096  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4097  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4098  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4099  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4100  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4101  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4102  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4103  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4104  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4105  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4106  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4107  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4108  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4109  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4110  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4111  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4112  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsCommit]
+root      4113  0.0  0.0      0     0 ?        S    Sep05   0:00 [jfsSync]
+root      4132  0.0  0.0      0     0 ?        S<   Sep05   0:00 [bioset]
+root      4317  0.0  0.0  96736  3848 ?        Ss   19:21   0:00 sshd: g3muradc [priv]
+g3muradc  4321  0.0  0.0  96736  1768 ?        S    19:21   0:00 sshd: g3muradc@pts/75
+g3muradc  4322  0.0  0.0  18172  2104 pts/75   Ss   19:21   0:00 -bash
+g3muradc  4328  0.0  0.0  41532  3020 pts/75   S+   19:21   0:00 ssh dbsrv1
+g3hoover  4332  0.0  0.0 170356  8840 pts/5    Tl   Sep25   0:10 vim common.c main_cache.c mymemory.c page_cache.c test_malloc.c common.h main_cache.h page_cache.h span.h Makefile
+root      4509  0.0  0.0  96732  3800 ?        Ss   19:24   0:00 sshd: g3fanrya [priv]
+g3fanrya  4514  0.0  0.0  96732  1760 ?        S    19:24   0:00 sshd: g3fanrya@notty
+g3fanrya  4515  0.0  0.0  12780   920 ?        Ss   19:24   0:00 /usr/lib/openssh/sftp-server
+root      4526  0.0  0.0  96728  3860 ?        Ss   19:24   0:00 sshd: g3kimdon [priv]
+g3kimdon  4530  0.0  0.0  96728  1772 ?        S    19:24   0:00 sshd: g3kimdon@pts/13
+g3kimdon  4531  0.0  0.0  18300  2136 pts/13   Ss   19:24   0:00 -tcsh
+g3kimdon  4546  0.0  0.0 170488  8860 pts/13   Sl+  19:24   0:00 vim csc343world.sql
+root      5196  0.0  0.0  96732  3860 ?        Ss   19:35   0:00 sshd: g3fanrya [priv]
+g3fanrya  5201  0.0  0.0  96732  1760 ?        S    19:35   0:00 sshd: g3fanrya@pts/53
+g3fanrya  5202  0.0  0.0  18156  2104 pts/53   Ss+  19:35   0:00 -bash
+g3print   5205  0.0  0.0 357364 45408 ?        Sl   Sep09   0:01 /local/lib/matlab-7.1/bin/glnxa64/MATLAB
+root      5209  0.0  0.0  96732  3860 ?        Ss   19:35   0:00 sshd: c2teshom [priv]
+root      5213  0.0  0.0  96728  3864 ?        Ss   19:35   0:00 sshd: g3blaze [priv]
+c2teshom  5234  0.0  0.0  96732  1764 ?        S    19:35   0:00 sshd: c2teshom@pts/65
+c2teshom  5235  0.0  0.0  18160  2104 pts/65   Ss   19:35   0:00 -bash
+g3blaze   5242  0.0  0.0  96728  1772 ?        S    19:35   0:00 sshd: g3blaze@pts/67
+g3blaze   5243  0.0  0.0  18156  2092 pts/67   Ss   19:35   0:00 -bash
+c2teshom  5253  0.0  0.0  41532  3024 pts/65   S+   19:35   0:00 ssh dbsrv1
+g3print   5264  0.0  0.0   3292   872 pts/9    Ss+  Sep09   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/9
+g3blaze   5266  0.0  0.0  41532  3020 pts/67   S+   19:35   0:00 ssh dbsrv1
+root      5304  0.0  0.0      0     0 ?        S<   19:36   0:00 [kworker/u134:0]
+root      5583  0.0  0.0      0     0 ?        S    Sep18   0:12 [kworker/12:0]
+root      5597  0.0  0.0  96736  3844 ?        Ss   19:42   0:00 sshd: c1hassaa [priv]
+c1hassaa  5605  0.0  0.0  96736  1768 ?        S    19:42   0:00 sshd: c1hassaa@pts/70
+c1hassaa  5606  0.0  0.0  18632  2504 pts/70   Ss   19:42   0:00 -tcsh
+root      5640  0.0  0.0  96728  3864 ?        Ss   19:43   0:00 sshd: c4vantha [priv]
+c4vantha  5644  0.0  0.0  96728  1772 ?        S    19:43   0:00 sshd: c4vantha@pts/79
+c4vantha  5645  0.0  0.0  18088  1892 pts/79   Ss   19:43   0:00 -tcsh
+c4vantha  5685  0.0  0.0  41532  3020 pts/79   S+   19:44   0:00 ssh dbsrv1.cdf.toronto.edu
+root      6263  0.0  0.0  96728  3868 ?        Ss   19:47   0:00 sshd: c4vantha [priv]
+c4vantha  6267  0.0  0.0  96728  1776 ?        S    19:47   0:00 sshd: c4vantha@pts/80
+c4vantha  6268  0.0  0.0  18084  1896 pts/80   Ss+  19:47   0:00 -tcsh
+root      6333  0.0  0.0  96732  3860 ?        Ss   19:48   0:00 sshd: c2changk [priv]
+root      6340  0.0  0.0      0     0 ?        S    19:48   0:00 [kworker/u129:2]
+root      6366  0.0  0.0  96728  3864 ?        Ss   19:49   0:00 sshd: g3lievre [priv]
+c2changk  6373  0.0  0.0  96732  1764 ?        S    19:49   0:00 sshd: c2changk@pts/42
+c2changk  6374  0.0  0.0  18140  2096 pts/42   Ss   19:49   0:00 -bash
+g3lievre  6381  0.0  0.0  96728  1768 ?        S    19:49   0:00 sshd: g3lievre@pts/83
+g3lievre  6382  0.0  0.0  18120  1968 pts/83   Ss   19:49   0:00 -bash
+g3lievre  6395  0.0  0.0  41532  3020 pts/83   S+   19:49   0:00 ssh dbsrv1
+root      6404  0.0  0.0      0     0 ?        S    Sep23   0:07 [kworker/9:1]
+c1hassaa  6628  0.0  0.0  12508  2808 pts/70   S+   19:52   0:00 nano redoAssignment.c
+root      6668  0.0  0.0      0     0 ?        S    19:54   0:00 [kworker/u129:1]
+root      6724  0.0  0.0      0     0 ?        S<   19:55   0:00 [kworker/u134:1]
+root      6754  0.0  0.0  96728  3876 ?        Ss   19:56   0:00 sshd: g2postav [priv]
+g2postav  6766  0.0  0.0  96728  1768 ?        S    19:56   0:00 sshd: g2postav@pts/47
+g2postav  6767  0.0  0.0   4404   676 pts/47   Ss+  19:56   0:00 /bin/sh
+root      6809  0.0  0.0  96728  3860 ?        Ss   19:57   0:00 sshd: g3avena [priv]
+g3avena   6815  0.0  0.0  96728  1772 ?        S    19:57   0:00 sshd: g3avena@pts/63
+g3avena   6816  0.0  0.0  18228  2072 pts/63   Ss   19:57   0:00 -tcsh
+g3avena   6937  0.0  0.0  41532  3016 pts/63   S+   19:57   0:00 ssh dbsrv1
+root      6942  0.0  0.0   4312   348 ?        S    19:57   0:00 sleep 300
+root      6984  0.0  0.0  96728  3860 ?        Ss   19:59   0:00 sshd: g3dmarch [priv]
+g3dmarch  6988  0.0  0.0  96728  1768 ?        S    19:59   0:00 sshd: g3dmarch@pts/33
+g3dmarch  6989  0.0  0.0  18156  2128 pts/33   Ss   19:59   0:00 -bash
+c4geerol  7007  0.0  0.0 170120  8356 pts/69   Sl+  19:59   0:00 vim list.c
+root      7011  0.0  0.0      0     0 ?        S    19:59   0:00 [kworker/u129:0]
+root      7112  0.0  0.0  96736  3848 ?        Ss   20:00   0:00 sshd: c1hassaa [priv]
+c1hassaa  7116  0.0  0.0  96736  1764 ?        S    20:01   0:00 sshd: c1hassaa@pts/76
+c1hassaa  7117  0.0  0.0  18212  2084 pts/76   Ss   20:01   0:00 -tcsh
+c1hassaa  7137  0.0  0.0  12376  2496 pts/76   S+   20:01   0:00 nano mymemory.c
+g3dmarch  7157  0.0  0.0  41532  3020 pts/33   S+   20:01   0:00 ssh dbsrv1.cdf.toronto.edu
+c2changk  7175  0.0  0.0  15284  1184 pts/42   R+   20:02   0:00 ps aux
+joey      7316  0.0  0.0  12572   320 ?        Ss   Sep13   0:00 ssh-agent
+g2jimjus  7621  0.0  0.0 302072 12604 ?        Ss   Sep10   0:54 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+g2jimjus  7623  0.0  0.0 301956  6060 ?        S    Sep10   0:00 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+g2jimjus  7624  0.0  0.0 302104  6044 ?        S    Sep10   0:00 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+g2jimjus  7625  0.0  0.0 302104  6044 ?        S    Sep10   0:00 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+g2jimjus  7626  0.0  0.0 302104  6044 ?        S    Sep10   0:00 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+g2jimjus  7627  0.0  0.0 302104  6044 ?        S    Sep10   0:00 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+g2jimjus  7628  0.0  0.0 302104  6044 ?        S    Sep10   0:00 /usr/sbin/apache2 -d /h/u12/g3/00/g2jimjus/apache/bin/../conf -f /h/u12/g3/00/g2jimjus/apache/bin/../conf/apache2.conf -k start
+root      8386  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/34:1]
+root      8649  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/30:0]
+root      8665  0.0  0.0      0     0 ?        S<   07:14   0:00 [kworker/u136:0]
+root      8736  0.0  0.0      0     0 ?        S    Sep19   0:08 [kworker/31:1]
+root      9020  0.0  0.0  96728  3896 ?        Ss   Sep12   0:00 sshd: norman [priv] 
+norman    9024  0.0  0.0  96848  2072 ?        S    Sep12   0:03 sshd: norman@pts/3  
+norman    9025  0.0  0.0  17968  1772 pts/3    Ss   Sep12   0:00 -bash
+root      9117  0.0  0.0      0     0 ?        S    Sep20   0:07 [kworker/28:2]
+root      9148  0.0  0.0  96736  3916 ?        Ss   07:21   0:00 sshd: rosselet [priv]
+rosselet  9152  0.0  0.0  96892  2188 ?        S    07:21   0:03 sshd: rosselet@pts/37
+rosselet  9153  0.0  0.0  18244  2088 pts/37   Ss   07:21   0:00 -tcsh
+rosselet  9176  0.0  0.0   4404   608 pts/37   S+   07:21   0:00 /bin/sh banks
+rosselet  9177  0.0  0.0  43740  3240 pts/37   S+   07:21   0:02 ssh -X banks.utsc.utoronto.ca
+root      9234  0.0  0.0   4404   676 ?        S    Sep15   0:06 /bin/sh /var/cfengine/local/cfengine_scheduler.sh
+root      9534  0.0  0.0      0     0 ?        S    Sep20   0:03 [kworker/29:2]
+root      9873  0.0  0.0      0     0 ?        S    Sep19   0:14 [kworker/35:2]
+root      9983  0.0  0.0  96736  3860 ?        Ss   Sep15   0:00 sshd: t3grenie [priv]
+t3grenie  9987  0.0  0.0  96736  1772 ?        S    Sep15   0:00 sshd: t3grenie@pts/17
+t3grenie  9988  0.0  0.0  18224  2060 pts/17   Ss+  Sep15   0:00 -tcsh
+root     10438  0.0  0.0      0     0 ?        S    Sep26   0:04 [kworker/38:1]
+root     10440  0.0  0.0      0     0 ?        S    Sep26   0:08 [kworker/44:2]
+root     10441  0.0  0.0      0     0 ?        S    Sep26   0:15 [kworker/45:0]
+root     10442  0.0  0.0      0     0 ?        S    Sep26   0:09 [kworker/42:2]
+root     10821  0.0  0.0      0     0 ?        S    Sep19   0:23 [kworker/34:2]
+root     11151  0.0  0.0      0     0 ?        S    Sep19   0:16 [kworker/30:1]
+root     11443  0.0  0.0      0     0 ?        S    Sep23   0:05 [kworker/27:2]
+root     12689  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/8:1]
+root     13910  0.0  0.0  96732  3988 ?        Ss   Sep09   0:00 sshd: ccc [priv]    
+ccc      13914  0.0  0.0  97052  2168 ?        S    Sep09   0:01 sshd: ccc@notty     
+ccc      13915  0.0  0.0  17804  1372 ?        Ss   Sep09   0:00 tcsh -c xterm -T redwolf
+ccc      13919  0.0  0.0  59024  4240 ?        S    Sep09   0:01 xterm -T redwolf
+ccc      13921  0.0  0.0  18348  2208 pts/19   Ss+  Sep09   0:00 -csh
+root     14061  0.0  0.0  94648  3896 ?        Ss   09:09   0:00 sshd: ange [priv]   
+ange     14065  0.0  0.0  95032  2268 ?        S    09:09   0:05 sshd: ange@pts/35   
+ange     14066  0.0  0.0  18304  2156 pts/35   Ss+  09:09   0:00 -tcsh
+root     14323  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/35:1]
+root     15201  0.0  0.0      0     0 ?        S    Sep24   0:00 [kworker/39:1]
+root     15874  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/7:2]
+root     16092  0.0  0.0      0     0 ?        S    Sep24   0:01 [kworker/36:0]
+agenkin  16149  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+root     16547  0.0  0.0      0     0 ?        S    Sep17   0:14 [kworker/18:2]
+joey     16632  0.0  0.0  12572   768 ?        Ss   Sep18   0:00 ssh-agent
+root     16810  0.0  0.0      0     0 ?        S    Sep23   0:01 [kworker/11:2]
+joey     17302  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     17317  0.0  0.0  12572   324 ?        Ss   Sep18   0:00 ssh-agent
+root     17341  0.0  0.0  96736  3844 ?        Ss   Sep26   0:00 sshd: c4alavin [priv]
+c4alavin 17345  0.0  0.0  96736  1844 ?        S    Sep26   0:00 sshd: c4alavin@pts/7
+c4alavin 17346  0.0  0.0  18140  2080 pts/7    Ss+  Sep26   0:00 -bash
+ntp      17519  0.0  0.0  33544  2692 ?        S    Sep20   0:40 ntpd -u ntp:ntp -n -g -c /etc/ntp.conf -p /var/run/ntpd.pid
+joey     17582  0.0  0.0  12572   324 ?        Ss   Sep18   0:00 ssh-agent
+joey     17589  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     17593  0.0  0.0  12572   316 ?        Ss   Sep18   0:00 ssh-agent
+joey     17598  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     17601  0.0  0.0  12572   316 ?        Ss   Sep18   0:00 ssh-agent
+joey     17605  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     17622  0.0  0.0  12572   316 ?        Ss   Sep18   0:00 ssh-agent
+joey     17633  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     17636  0.0  0.0  12572   316 ?        Ss   Sep18   0:00 ssh-agent
+root     17993  0.0  0.0 193648  4236 ?        Sl   Sep12   0:48 /usr/lib/udisks/udisks-daemon
+root     17994  0.0  0.0  45520   796 ?        S    Sep12   0:00 udisks-daemon: not polling any devices
+delara   18119  0.0  0.0 302068 12592 ?        Ss   Sep03   1:17 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18121  0.0  0.0 301952  6064 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18122  0.0  0.0 302124  6552 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18123  0.0  0.0 302556  7236 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18124  0.0  0.0 303192  9476 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18125  0.0  0.0 302148  7716 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18126  0.0  0.0 302116  6296 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   18132  0.0  0.0 302100  6044 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+joey     18246  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     18317  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     18339  0.0  0.0  12572   316 ?        Ss   Sep18   0:00 ssh-agent
+joey     18352  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+joey     18362  0.0  0.0  12572   316 ?        Ss   Sep18   0:00 ssh-agent
+joey     18521  0.0  0.0  12572   320 ?        Ss   Sep18   0:00 ssh-agent
+root     19046  0.0  0.0 250244  7268 ?        Sl   Sep02   5:11 rsyslogd -c5
+root     19941  0.0  0.0      0     0 ?        S    Sep24   0:05 [kworker/39:0]
+root     20434  0.0  0.0      0     0 ?        S    Sep24   0:00 [kworker/40:2]
+root     20455  0.0  0.0      0     0 ?        S    Sep24   0:00 [kworker/38:3]
+root     20727  0.0  0.0  96736  3876 ?        Ss   Sep03   0:00 sshd: delara [priv] 
+delara   20731  0.0  0.0  98104  3292 ?        SN   Sep03   2:15 sshd: delara@pts/4  
+delara   20732  0.0  0.0  18252  2124 pts/4    Ss+  Sep03   0:00 -tcsh
+delara   20739  0.0  0.3 844328 220428 pts/4   SNl  Sep03  16:53 /usr/lib/firefox/firefox
+delara   20755  0.0  0.0  26564   700 pts/4    S    Sep03   0:00 dbus-launch --autolaunch 6ac8c259c42fdc59c592c33400000218 --binary-syntax --close-stderr
+delara   20756  0.0  0.0  23820   692 ?        Ss   Sep03   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+delara   20758  0.0  0.0  49904  2592 ?        S    Sep03   0:04 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+delara   20871  0.0  0.0 302100  6044 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   20873  0.0  0.0 302100  6044 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+delara   20874  0.0  0.0 302100  6044 ?        S    Sep03   0:00 /usr/sbin/apache2 -d /u/delara/apache/bin/../conf -f /u/delara/apache/bin/../conf/apache2.conf -k start
+root     21506  0.0  0.0      0     0 ?        S    Sep23   0:51 [kworker/32:2]
+root     22223  0.0  0.0      0     0 ?        S    Sep19   0:05 [kworker/33:0]
+g3hoover 24319  0.0  0.0  24956  2444 ?        Ss   Sep07   1:00 SCREEN
+g3hoover 24320  0.0  0.0  18404  2392 pts/5    Ss+  Sep07   0:02 /var/shell/bash
+root     24344  0.0  0.0      0     0 ?        S    Sep24   0:30 [kworker/36:1]
+root     24715  0.0  0.0      0     0 ?        S    Sep24   0:09 [kworker/40:1]
+root     25286  0.0  0.0  96728  3896 ?        Ss   Sep28   0:00 sshd: norman [priv] 
+norman   25290  0.0  0.0  96728  1852 ?        S    Sep28   0:00 sshd: norman@pts/20 
+norman   25291  0.0  0.0  17976  1784 pts/20   Ss+  Sep28   0:00 -bash
+root     25479  0.0  0.0  96732  3788 ?        Ss   11:53   0:00 sshd: c4carval [priv]
+c4carval 25483  0.0  0.0  96732  1916 ?        S    11:53   0:00 sshd: c4carval@notty
+c4carval 25484  0.0  0.0  12780   740 ?        Ss   11:53   0:00 /usr/lib/openssh/sftp-server
+root     26653  0.0  0.0  96736  3864 ?        Ss   12:08   0:00 sshd: c3liqini [priv]
+c3liqini 26659  0.0  0.0  96736  1896 ?        S    12:09   0:01 sshd: c3liqini@pts/81
+c3liqini 26660  0.0  0.0  18116  2084 pts/81   Ss+  12:09   0:00 -bash
+root     27333  0.0  0.0  96728  3860 ?        Ss   12:18   0:00 sshd: c3ahmada [priv]
+c3ahmada 27343  0.0  0.0  96888  1980 ?        S    12:18   0:06 sshd: c3ahmada@pts/38
+c3ahmada 27344  0.0  0.0  18340  2300 pts/38   Ss+  12:18   0:00 -bash
+g2elenit 28034  0.0  0.0 359888 48968 ?        Sl   Sep28   0:09 /local/lib/matlab-7.1/bin/glnxa64/MATLAB
+g2elenit 28093  0.0  0.0   3292   868 pts/31   Ss+  Sep28   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/31
+g1biggse 29136 99.0  0.0 583716  3396 ?        RN   Sep15 19767:47 fish
+g1biggse 29138  0.0  0.0  14864   920 ?        Ss   Sep15   0:00 /h/u17/g2/00/g1biggse/bin/fishd
+root     29196  0.0  0.0      0     0 ?        S    Sep28   0:00 [kworker/u132:0]
+root     29277  0.0  0.0  96736  3848 ?        Ss   12:45   0:00 sshd: c4galejo [priv]
+c4galejo 29283  0.0  0.0  96736  1764 ?        S    12:45   0:00 sshd: c4galejo@pts/96
+c4galejo 29284  0.0  0.0  18240  2108 pts/96   Ss+  12:45   0:00 -tcsh
+root     29327  0.0  0.0      0     0 ?        S<   12:46   0:00 [kworker/u135:2]
+rtkit    29654  0.0  0.0 168876  1372 ?        SNl  Sep08   0:39 /usr/lib/rtkit/rtkit-daemon
+root     30383  0.0  0.0      0     0 ?        S<   Sep28   0:00 [kworker/u137:1]
+root     31029  0.0  0.0  21748  1072 ?        S    Sep22   0:00 /sbin/udevd --daemon
+root     31036  0.0  0.0  21748  1000 ?        S    Sep22   0:00 /sbin/udevd --daemon
+g2graman 31100  0.0  0.0 357336 50700 ?        Sl   Sep28   0:08 /local/lib/matlab-7.1/bin/glnxa64/MATLAB
+g2graman 31159  0.0  0.0   3292   872 pts/123  Ss+  Sep28   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/123
+joey     31450  0.0  0.0  12572   320 ?        Ss   Sep07   0:00 ssh-agent -s
+root     31933  0.0  0.0  96732  3868 ?        Ss   13:19   0:00 sshd: g3chewju [priv]
+g3chewju 31941  0.0  0.0  96888  1892 ?        S    13:19   0:00 sshd: g3chewju@pts/98
+g3chewju 31942  0.0  0.0  18096  2088 pts/98   Ss+  13:19   0:00 -bash
+joey     32190  0.0  0.0  12572   320 ?        Ss   Sep07   0:00 ssh-agent -s
+joey     32208  0.0  0.0  12572   316 ?        Ss   Sep07   0:00 ssh-agent -s
+joey     32313  0.0  0.0  12572   516 ?        Ss   Sep07   0:00 ssh-agent -s
+root     32371  0.0  0.0      0     0 ?        S    Sep19   0:01 [kworker/14:1]
+root     32595  0.0  0.0      0     0 ?        S    Sep19   0:06 [kworker/15:2]
+root     32736  0.0  0.0  96728  3876 ?        Ss   Sep25   0:00 sshd: t4kimbeo [priv]
+t4kimbeo 32744  0.0  0.0  96728  1768 ?        S    Sep25   0:00 sshd: t4kimbeo@pts/21
+t4kimbeo 32745  0.0  0.0  18256  2124 pts/21   Ss   Sep25   0:00 -tcsh
+root     33070  0.0  0.0  96728  3896 ?        Ss   Sep17   0:00 sshd: norman [priv] 
+norman   33074  0.0  0.0  96728  1852 ?        S    Sep17   0:00 sshd: norman@pts/16 
+norman   33075  0.0  0.0  17988  1784 pts/16   Ss+  Sep17   0:00 -bash
+root     33461  0.0  0.0      0     0 ?        S    Sep25   0:14 [kworker/1:2]
+t4kimbeo 33603  0.0  0.0 178052 17932 pts/21   S+   Sep25   0:00 emacs list_sync.c
+root     34480  0.0  0.0 4254308 6024 ?        Sl   Aug28   0:01 /usr/sbin/console-kit-daemon --no-daemon
+root     34547  0.0  0.0 195432  4196 ?        Sl   Aug28   0:02 /usr/lib/policykit-1/polkitd --no-debug
+root     34869  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/6:1]
+root     34888  0.0  0.0      0     0 ?        S    Sep23   0:10 [kworker/7:0]
+root     34950  0.0  0.0      0     0 ?        S    Sep19   0:24 [kworker/33:2]
+root     35426  0.0  0.0  96728  3896 ?        Ss   13:46   0:00 sshd: dianeh [priv] 
+root     35431  0.0  0.0      0     0 ?        S    Sep19   0:03 [kworker/31:0]
+dianeh   35434  0.0  0.0  96728  1772 ?        S    13:46   0:00 sshd: dianeh@pts/55 
+dianeh   35435  0.0  0.0  18124  2008 pts/55   Ss   13:46   0:00 -csh
+root     35494  0.0  0.0  96732  3868 ?        Ss   Sep28   0:00 sshd: g3chewju [priv]
+g3chewju 35514  0.0  0.0  96892  1972 ?        S    Sep28   0:01 sshd: g3chewju@pts/131
+g3chewju 35515  0.0  0.0  18180  2184 pts/131  Ss   Sep28   0:00 -bash
+g3chewju 35636  0.0  0.0  18188  1284 pts/131  S    13:51   0:00 -bash
+g3chewju 35637  0.0  0.0   4316   344 pts/131  S    13:51   0:00 wc -l
+root     35801  0.0  0.0      0     0 ?        S    Sep28   0:00 [kworker/u130:1]
+root     36175  0.0  0.0      0     0 ?        S    Sep23   0:17 [kworker/10:2]
+root     36221  0.0  0.0      0     0 ?        S    Sep23   1:35 [kworker/6:2]
+root     36338  0.0  0.0      0     0 ?        S    Sep23   0:08 [kworker/8:2]
+g3chewju 36457  0.0  0.0  18084  2020 pts/131  S+   13:51   0:00 /var/shell/bash -i
+root     36521  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/10:3]
+root     36592  0.0  0.0      0     0 ?        S    Sep23   0:02 [kworker/11:0]
+g3amr    36725  100  0.0  80336 32964 ?        RNl  Sep23 8774:17 /local/lib/matlab-7.1/bin/glnxa64/MATLAB -nodisplay -nosplash -r question5.m -nojvm
+g3amr    36784  0.0  0.0   3292   868 pts/27   Ss+  Sep23   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/27
+root     36824  0.0  0.0      0     0 ?        S    Sep16   0:08 [kworker/19:0]
+root     37187  0.0  0.0  94648  3892 ?        Ss   Sep17   0:00 sshd: g3valery [priv]
+g3valery 37191  0.0  0.0  94808  1980 ?        S    Sep17   0:00 sshd: g3valery@pts/28
+g3valery 37192  0.0  0.0  18144  2132 pts/28   Ss+  Sep17   0:00 -bash
+g3kho    38024  0.0  0.0  24548  1796 ?        Ss   Sep25   0:00 SCREEN
+g3kho    38025  0.0  0.0  18148  2108 pts/39   Ss   Sep25   0:00 /var/shell/bash
+g3kho    38030  0.0  0.0  18148  2108 pts/51   Ss   Sep25   0:00 /var/shell/bash
+g3kho    38037  0.0  0.0  12360  2632 pts/51   S+   Sep25   0:00 nano partA1.c
+g3kho    38069  0.0  0.0  11840  2036 pts/39   S+   Sep25   0:00 nano tsc.h
+g3kho    38072  0.0  0.0  18148  2112 pts/52   Ss+  Sep25   0:00 /var/shell/bash
+root     38124  0.0  0.0      0     0 ?        S    Sep20   0:01 [kworker/27:0]
+g0dbloem 38546  0.0  0.0  26356  1776 ?        SNs  Sep25   3:04 tmux new-session
+g0dbloem 38547  0.0  0.0  18172  2116 pts/32   Ss+  Sep25   0:00 /var/shell/bash
+g2elenit 38975  0.0  0.0 359884 51268 ?        Sl   Sep28   0:08 /local/lib/matlab-7.1/bin/glnxa64/MATLAB
+g2elenit 39038  0.0  0.0   3292   868 pts/89   Ss+  Sep28   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/89
+root     39071  0.0  0.0 219912  4312 ?        Sl   Sep19   0:00 /usr/lib/upower/upowerd
+root     39591  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/22:0]
+root     39592  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/20:2]
+root     40885  0.0  0.0      0     0 ?        S    Sep17   0:02 [kworker/13:1]
+tg       41275  0.0  0.0  43612  3044 pts/14   S+   Sep22   0:00 ssh utstat.toronto.edu
+tg       41276  0.0  0.0  43612  3040 pts/15   S+   Sep22   0:00 ssh -l sonilg utstat.toronto.edu
+root     41574  0.0  0.0      0     0 ?        S    Sep22   0:06 [kworker/23:1]
+root     41691  0.0  0.0      0     0 ?        S    Sep28   0:00 [kworker/u132:1]
+g2hacker 41901  0.0  0.0  24284  1532 ?        Ss   Sep08   0:00 SCREEN
+g2hacker 41902  0.0  0.0  18164  2060 pts/22   Ss+  Sep08   0:00 /var/shell/bash
+root     44014  0.0  0.0      0     0 ?        S    Sep26   0:01 [kworker/41:0]
+root     44129  0.0  0.0  96728  3892 ?        Ss   Sep10   0:00 sshd: t4raysup [priv]
+t4raysup 44137  0.0  0.0  96728  1772 ?        S    Sep10   0:00 sshd: t4raysup@pts/2
+t4raysup 44138  0.0  0.0  18132  1968 pts/2    Ss+  Sep10   0:00 -tcsh
+root     44321  0.0  0.0      0     0 ?        S    Sep28   0:00 [kworker/19:1]
+root     46845  0.0  0.0      0     0 ?        S    Sep19   0:01 [kworker/23:2]
+root     46997  0.0  0.0      0     0 ?        S    Sep20   0:02 [kworker/26:1]
+root     47824  0.0  0.0      0     0 ?        S    Sep19   0:17 [kworker/21:0]
+root     47916  0.0  0.0      0     0 ?        S    Sep19   0:08 [kworker/20:1]
+root     47926  0.0  0.0      0     0 ?        S    Sep19   0:13 [kworker/22:1]
+root     48041  0.0  0.0      0     0 ?        S    Sep19   0:17 [kworker/18:0]
+root     48737  0.0  0.0      0     0 ?        S    Sep10   0:12 [kworker/47:2]
+dianeh   48883  0.0  0.0  41532  3024 pts/55   S+   15:03   0:00 ssh dbsrv1
+root     49139  0.0  0.0      0     0 ?        S    Sep28   0:03 [kworker/12:1]
+root     49140  0.0  0.0      0     0 ?        S    Sep28   0:14 [kworker/2:1]
+c2yewhon 49157  0.0  0.0  12572   320 ?        Ss   Sep12   0:00 ssh-agent -s
+root     49531  0.0  0.0      0     0 ?        S    Sep23   0:02 [kworker/32:1]
+root     50328  0.0  0.0      0     0 ?        S<   00:01   0:00 [kworker/u137:2]
+root     50784  0.0  0.0      0     0 ?        S    Sep22   0:00 [kworker/9:0]
+norman   51379  0.0  0.0   4404   688 pts/3    S+   Sep24   0:00 dash
+root     51435  0.0  0.0      0     0 ?        S    Sep26   0:10 [kworker/24:1]
+root     51688  0.0  0.0      0     0 ?        S    Sep27   0:37 [kworker/0:0]
+root     51841  0.0  0.0      0     0 ?        S    Sep20   0:00 [kworker/24:2]
+root     52205  0.0  0.0      0     0 ?        S    Sep27   0:01 [kworker/u131:1]
+root     52254  0.0  0.0      0     0 ?        S    Sep19   0:08 [kworker/14:2]
+root     52637  0.0  0.0  96732  3960 ?        Ss   Sep22   0:00 sshd: tg [priv]     
+tg       52641  0.0  0.0  96732  1824 ?        S    Sep22   0:00 sshd: tg@pts/11     
+tg       52642  0.0  0.0  18136  2084 pts/11   Ss+  Sep22   0:00 -bash
+root     52659  0.0  0.0  96732  3952 ?        Ss   Sep22   0:00 sshd: tg [priv]     
+tg       52672  0.0  0.0  96888  1820 ?        S    Sep22   0:00 sshd: tg@pts/14     
+tg       52673  0.0  0.0  18136  1984 pts/14   Ss   Sep22   0:00 -bash
+root     52678  0.0  0.0  96732  3956 ?        Ss   Sep22   0:00 sshd: tg [priv]     
+tg       52682  0.0  0.0  96888  1824 ?        S    Sep22   0:00 sshd: tg@pts/15     
+tg       52683  0.0  0.0  18136  1976 pts/15   Ss   Sep22   0:00 -bash
+root     53746  0.0  0.0  96728  3876 ?        Ss   15:58   0:00 sshd: g3ymeng [priv]
+g3ymeng  53756  0.0  0.0  96728  1768 ?        S    15:58   0:00 sshd: g3ymeng@pts/68
+g3ymeng  53757  0.0  0.0  18140  2144 pts/68   Ss+  15:58   0:00 -bash
+root     54103  0.0  0.0      0     0 ?        S    Sep10   0:30 [kworker/43:2]
+root     54592  0.0  0.0      0     0 ?        S    Sep22   0:03 [kworker/4:2]
+root     55254  0.0  0.0  96728  3812 ?        Ss   16:09   0:00 sshd: t4robert [priv]
+t4robert 55258  0.0  0.0  97468  2352 ?        S    16:09   0:00 sshd: t4robert@notty
+t4robert 55259  0.0  0.0  17776  1368 ?        Ss   16:09   0:00 tcsh -c /usr/lib/openssh/sftp-server
+t4robert 55261  0.0  0.0  13524  1604 ?        S    16:09   0:00 /usr/lib/openssh/sftp-server
+root     56258  0.0  0.0      0     0 ?        S    Sep27   0:10 [kworker/5:2]
+root     56730  0.0  0.0  94652  3896 ?        Ss   Sep23   0:00 sshd: sengels [priv]
+sengels  56734  0.0  0.0  94652  1840 ?        S    Sep23   0:00 sshd: sengels@pts/45
+sengels  56735  0.0  0.0  18228  2060 pts/45   Ss+  Sep23   0:00 -tcsh
+root     56985  0.0  0.0      0     0 ?        S    Sep19   0:00 [kworker/16:0]
+root     57400  0.0  0.0      0     0 ?        S    Sep19   0:10 [kworker/13:2]
+root     57434  0.0  0.0      0     0 ?        S    Sep20   0:00 [kworker/28:1]
+root     57517  0.0  0.0  96736  3776 ?        Ss   Sep26   0:00 sshd: g9farmer [priv]
+g9farmer 57521  0.0  0.0  96736  1956 ?        S    Sep26   0:01 sshd: g9farmer      
+root     57523  0.0  0.0  96736  3772 ?        Ss   Sep26   0:00 sshd: g9farmer [priv]
+g9farmer 57527  0.0  0.0  96736  1952 ?        S    Sep26   0:01 sshd: g9farmer      
+root     58149  0.0  0.0      0     0 ?        S    Sep22   0:00 [kworker/2:0]
+root     58514  0.0  0.0  96728  3896 ?        Ss   Sep22   0:00 sshd: norman [priv] 
+norman   58518  0.0  0.0  96728  1852 ?        S    Sep22   0:00 sshd: norman@pts/18 
+norman   58519  0.0  0.0  17972  1776 pts/18   Ss+  Sep22   0:00 -bash
+root     58582  0.0  0.0      0     0 ?        S    Sep28   1:33 [kworker/0:1]
+root     58666  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/41:1]
+root     58954  0.0  0.0      0     0 ?        S    Sep20   0:00 [kworker/29:0]
+root     59471  0.0  0.0      0     0 ?        S    Sep20   0:09 [kworker/26:0]
+root     59747  0.0  0.0  17236   760 ?        S    Sep10   0:01 upstart-udev-bridge --daemon
+root     59749  0.0  0.0  21752  1428 ?        Ss   Sep10   0:01 /sbin/udevd --daemon
+root     59910  0.0  0.0  96728  3856 ?        Ss   Sep04   0:00 sshd: iordan [priv] 
+iordan   59914  0.0  0.0  96728  1744 ?        S    Sep04   0:00 sshd: iordan@pts/10 
+iordan   59915  0.0  0.0  18164  1996 pts/10   Ss+  Sep04   0:00 -bash
+root     59927  0.0  0.0      0     0 ?        S    Sep24   0:12 [kworker/37:0]
+root     60042  0.0  0.0      0     0 ?        S    Sep19   0:08 [kworker/16:1]
+root     60055  0.0  0.0      0     0 ?        S    Sep19   0:10 [kworker/17:1]
+root     60173  0.0  0.0      0     0 ?        S<   Sep27   0:00 [kworker/u135:1]
+root     60438  0.0  0.0  96732  3828 ?        Ss   17:05   0:00 sshd: g3shahni [priv]
+g3shahni 60442  0.0  0.0  97820  3092 ?        S    17:05   0:00 sshd: g3shahni@notty
+g3shahni 60443  0.0  0.0  13800  1904 ?        Ss   17:05   0:00 /usr/lib/openssh/sftp-server
+root     60693  0.0  0.0  96732  3984 ?        Ss   17:10   0:00 sshd: c0aitkeo [priv]
+c0aitkeo 60699  0.0  0.0  96732  2012 ?        S    17:10   0:00 sshd: c0aitkeo@pts/30
+c0aitkeo 60700  0.0  0.0  18680  2548 pts/30   Ss+  17:10   0:00 -tcsh
+root     60722  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/5:0]
+c0aitkeo 61142  0.3  0.0 596316  3916 pts/30   Tl   17:16   0:30 handoff
+root     61405  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/3:2]
+root     61630  0.0  0.0  96728  3884 ?        Ss   17:23   0:00 sshd: g2eric [priv] 
+g2eric   61636  0.0  0.0  96888  1888 ?        S    17:23   0:01 sshd: g2eric@pts/41 
+g2eric   61637  0.0  0.0  18724  2536 pts/41   Ss+  17:23   0:00 -tcsh
+root     62644  0.0  0.0      0     0 ?        S    Sep24   0:00 [kworker/37:3]
+root     63170  0.0  0.0      0     0 ?        S    Sep15   0:11 [kworker/21:1]
+root     63221  0.0  0.0      0     0 ?        S    Sep23   0:00 [kworker/1:1]
+root     63228  0.0  0.0  96736  3844 ?        Ss   17:45   0:00 sshd: g3maozi [priv]
+g3maozi  63232  0.0  0.0  96888  1764 ?        S    17:46   0:00 sshd: g3maozi@pts/73
+g3maozi  63233  0.0  0.0  18144  2092 pts/73   Ss+  17:46   0:00 -bash
+root     63250  0.0  0.0  96736  3848 ?        Ss   17:46   0:00 sshd: g3halims [priv]
+g3halims 63275  0.0  0.0  96736  1768 ?        S    17:46   0:00 sshd: g3halims@pts/64
+g3halims 63276  0.0  0.0  18108  2080 pts/64   Ss   17:46   0:00 -bash
+root     63780  0.0  0.0  96732  3864 ?        Ss   17:56   0:00 sshd: c3wiszni [priv]
+c3wiszni 63802  0.0  0.0  96732  1768 ?        S    17:56   0:00 sshd: c3wiszni@pts/44
+c3wiszni 63803  0.0  0.0  18108  1964 pts/44   Ss   17:56   0:00 -bash
+c3wiszni 63815  0.0  0.0  41532  3016 pts/44   S+   17:56   0:00 ssh dbsrv1
+g3halims 63827  0.0  0.0  41532  3020 pts/64   S+   17:57   0:00 ssh dbsrv1
+joey     64292  0.0  0.0  12572   316 ?        Ss   Sep06   0:00 ssh-agent -s
+root     64468  0.0  0.0      0     0 ?        S    Sep28   0:20 [kworker/4:0]
+root     64719  0.0  0.0  96732  3796 ?        Ss   18:14   0:00 sshd: g2elenit [priv]
+g2elenit 64746  0.0  0.0  96856  2164 ?        S    18:15   0:00 sshd: g2elenit@notty
+g2elenit 64747  0.0  0.0  12780   924 ?        Ss   18:15   0:00 /usr/lib/openssh/sftp-server
+root     64750  0.0  0.0  96728  3864 ?        Ss   18:15   0:00 sshd: g2elenit [priv]
+g2elenit 64754  0.0  0.0  96728  1772 ?        S    18:15   0:00 sshd: g2elenit@pts/40
+g2elenit 64755  0.0  0.0  18144  2104 pts/40   Ss   18:15   0:00 -bash
+g2elenit 64760  1.0  0.0 364004 53916 pts/40   Sl+  18:15   1:04 /local/lib/matlab-7.1/bin/glnxa64/MATLAB
+g2elenit 64819  0.0  0.0   3292   872 pts/46   Ss+  18:15   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/46
+root     64999  0.0  0.0  96736  3844 ?        Ss   18:20   0:00 sshd: g2clouds [priv]
+g2clouds 65003  0.0  0.0  96736  1768 ?        S    18:20   0:00 sshd: g2clouds@pts/61
+g2clouds 65004  0.0  0.0  18156  2136 pts/61   Ss   18:20   0:00 -bash
+root     65028  0.0  0.0  96728  3864 ?        Ss   18:22   0:00 sshd: g4wukaho [priv]
+g4wukaho 65034  0.0  0.0  96888  1768 ?        S    18:22   0:00 sshd: g4wukaho@pts/49
+g4wukaho 65035  0.0  0.0  18228  2028 pts/49   Ss   18:22   0:00 -tcsh
+g4wukaho 65048  0.0  0.0  41532  3020 pts/49   S+   18:23   0:00 ssh dbsrv1.cdf.toronto.edu
+g2clouds 65074  0.0  0.0  41532  3024 pts/61   S+   18:24   0:00 ssh dbsrv1.cdf.toronto.edu
+root     65228  0.0  0.0  96736  3852 ?        Ss   18:28   0:00 sshd: g3laylyo [priv]
+g3laylyo 65234  0.0  0.0  96888  1768 ?        S    18:28   0:00 sshd: g3laylyo@pts/60
+g3laylyo 65235  0.0  0.0  18128  1920 pts/60   Ss   18:28   0:00 -bash
+g3laylyo 65244  0.0  0.0  41532  3020 pts/60   S+   18:28   0:00 ssh dbsrv1.cdf.toronto.edu
+root     65339  0.0  0.0  96732  3784 ?        Ss   18:30   0:00 sshd: c3zhanij [priv]
+c3zhanij 65343  0.0  0.0  97016  2292 ?        S    18:30   0:00 sshd: c3zhanij@notty
+c3zhanij 65344  0.0  0.0  17780  1368 ?        Ss   18:30   0:00 tcsh -c /usr/lib/openssh/sftp-server
+c3zhanij 65346  0.0  0.0  12912   912 ?        S    18:30   0:00 /usr/lib/openssh/sftp-server
+root     65467  0.0  0.0  96728  3868 ?        Ss   18:31   0:00 sshd: g2elenit [priv]
+g2elenit 65471  0.0  0.0  96728  1860 ?        S    18:32   0:02 sshd: g2elenit@pts/36
+g2elenit 65472  0.0  0.0  18144  1968 pts/36   Ss   18:32   0:00 -bash
+g2elenit 65477  3.6  0.0 363156 52908 pts/36   SNl+ 18:32   3:16 /local/lib/matlab-7.1/bin/glnxa64/MATLAB

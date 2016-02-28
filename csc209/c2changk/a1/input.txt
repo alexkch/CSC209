@@ -1,0 +1,2 @@
+drwxr-xr-x 2 craig insst 512 sept 25 11:34 file1
+drwx-r-aaa 2 moop insst 999 sept 23 11:3 fileCHIN

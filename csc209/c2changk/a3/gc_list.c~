@@ -1,0 +1,19 @@
+#include "gc.h"
+#include "list.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+ 
+void mark_list(List * Linklist){
+  
+  while (Linklist != NULL) {
+    if (mark_one(&Linklist) == 1){
+      //perror("error");
+      //puts("ERROR with mark_list");
+      //exit(1);
+      //printf("return with 1?");
+    }
+    Linklist = Linklist->next;
+    
+  }
+}

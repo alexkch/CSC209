@@ -1,0 +1,770 @@
+Script started on Fri Jan 24 09:28:41 2014
+greywolf:~/Exercises209/e2% gdb overflow
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /h/u4/c2/06/c2changk/Exercises209/e2/overflow...done.
+(gdb) display a>
+No symbol "a" in current context.
+(gdb) break main
+Breakpoint 1 at 0x40058c: file overflow.c, line 7.
+(gdb) run
+Starting program: /h/u4/c2/06/c2changk/Exercises209/e2/overflow 
+
+Breakpoint 1, main () at overflow.c:7
+7           int index = 0;
+(gdb) display a>
+A syntax error in expression, near `'.
+(gdb) display a> 
+1: a = {0, 0, 4195488, 0}
+(gdb) display a i
+2: i = -5312
+(gdb) display i k
+3: k = 32767
+(gdb) display k j
+4: j = 0
+(gdb) next
+9           int k = 10;
+4: j = 0
+3: k = 32767
+2: i = -5312
+1: a = {0, 0, 4195488, 0}
+(gdb) nextdisplay jkia
+5: a = {0, 0, 4195488, 0}
+(gdb) display a(gdb) [5Pnextdisplay a(gdb) [Kdisplay a(gdb) [5Pnextdisplay jk
+6: k = 32767
+(gdb) display ka(gdb) [5Pnextdisplay j
+7: j = 0
+(gdb) display jka(gdb) [5Pnextdisplay jki
+8: i = -5312
+(gdb) display ijka(gdb) [5Pnextdisplay j(gdb) [5Pnext
+10          int a[SIZE] = {0, 0, 0, 0};
+8: i = -5312
+7: j = 0
+6: k = 10
+5: a = {0, 0, 4195488, 0}
+4: j = 0
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 4195488, 0}
+(gdb) nextdisplay ijk
+9: k = 10
+(gdb) display k(gdb) [5Pnextdisplay i
+10: i = -5312
+(gdb) display ik(gdb) [5Pnextdisplay ijka
+11: a = {0, 0, 4195488, 0}
+(gdb) display aik(gdb) [5Pnextdisplay ij
+12: j = 0
+(gdb) display jaik(gdb) [5Pnextdisplay ij indes x
+13: index = 0
+(gdb) display indexj[Kaik(gdb) [5Pnextdisplay ij         next
+11          int j = 10;
+13: index = 0
+12: j = 0
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 0
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 0
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+13          printf("Address of the variables:\n");
+13: index = 0
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+Address of the variables:
+14          printf("%lx -> &j\n", (unsigned long)&j);
+13: index = 0
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea58 -> &j
+15          for(index = 0; index < SIZE; index++) {
+13: index = 0
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+16              printf("%lx -> &a[%d]\n", (unsigned long) &a[index], index);
+13: index = 0
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea40 -> &a[0]
+15          for(index = 0; index < SIZE; index++) {
+13: index = 0
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+16              printf("%lx -> &a[%d]\n", (unsigned long) &a[index], index);
+13: index = 1
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea44 -> &a[1]
+15          for(index = 0; index < SIZE; index++) {
+13: index = 1
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+16              printf("%lx -> &a[%d]\n", (unsigned long) &a[index], index);
+13: index = 2
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea48 -> &a[2]
+15          for(index = 0; index < SIZE; index++) {
+13: index = 2
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+16              printf("%lx -> &a[%d]\n", (unsigned long) &a[index], index);
+13: index = 3
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea4c -> &a[3]
+15          for(index = 0; index < SIZE; index++) {
+13: index = 3
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+19          printf("%lx -> &k\n", (unsigned long)&k);
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea54 -> &k
+20          printf("%lx -> &i\n", (unsigned long)&i);
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+7fffffffea50 -> &i
+21          printf("\n");
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) display k
+14: k = 10
+(gdb) display k(gdb) [5Pnext
+
+24          printf("Initial values:");
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+25          printf("i = %d, j = %d, k = %d\n", i, j, k);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+Initial values:i = -5312, j = 10, k = 10
+26          printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+a = {0, 0, 0, 0}
+27          printf("\n");
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+
+30          for(i = 0; i < OVERFLOW; i++) {
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = -5312
+9: k = 10
+8: i = -5312
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = -5312
+1: a = {0, 0, 0, 0}
+(gdb) next
+31              a[i] = i * 10;
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = 0
+9: k = 10
+8: i = 0
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 0
+1: a = {0, 0, 0, 0}
+(gdb) next
+32              printf("i = %d, j = %d, k = %d\t\t", i, j, k);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = 0
+9: k = 10
+8: i = 0
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 0
+1: a = {0, 0, 0, 0}
+(gdb) next
+33              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = 0
+9: k = 10
+8: i = 0
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 0
+1: a = {0, 0, 0, 0}
+(gdb) next
+i = 0, j = 10, k = 10           a = {0, 0, 0, 0}
+30          for(i = 0; i < OVERFLOW; i++) {
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = 0
+9: k = 10
+8: i = 0
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 0
+1: a = {0, 0, 0, 0}
+(gdb) next
+31              a[i] = i * 10;
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 0, 0, 0}
+10: i = 1
+9: k = 10
+8: i = 1
+7: j = 10
+6: k = 10
+5: a = {0, 0, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 1
+1: a = {0, 0, 0, 0}
+(gdb) next
+32              printf("i = %d, j = %d, k = %d\t\t", i, j, k);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 0, 0}
+10: i = 1
+9: k = 10
+8: i = 1
+7: j = 10
+6: k = 10
+5: a = {0, 10, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 1
+1: a = {0, 10, 0, 0}
+(gdb) next
+33              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 0, 0}
+10: i = 1
+9: k = 10
+8: i = 1
+7: j = 10
+6: k = 10
+5: a = {0, 10, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 1
+1: a = {0, 10, 0, 0}
+(gdb) next
+i = 1, j = 10, k = 10           a = {0, 10, 0, 0}
+30          for(i = 0; i < OVERFLOW; i++) {
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 0, 0}
+10: i = 1
+9: k = 10
+8: i = 1
+7: j = 10
+6: k = 10
+5: a = {0, 10, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 1
+1: a = {0, 10, 0, 0}
+(gdb) next
+31              a[i] = i * 10;
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 0, 0}
+10: i = 2
+9: k = 10
+8: i = 2
+7: j = 10
+6: k = 10
+5: a = {0, 10, 0, 0}
+4: j = 10
+3: k = 10
+2: i = 2
+1: a = {0, 10, 0, 0}
+(gdb) next
+32              printf("i = %d, j = %d, k = %d\t\t", i, j, k);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 0}
+10: i = 2
+9: k = 10
+8: i = 2
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 0}
+4: j = 10
+3: k = 10
+2: i = 2
+1: a = {0, 10, 20, 0}
+(gdb) next
+33              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 0}
+10: i = 2
+9: k = 10
+8: i = 2
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 0}
+4: j = 10
+3: k = 10
+2: i = 2
+1: a = {0, 10, 20, 0}
+(gdb) next
+i = 2, j = 10, k = 10           a = {0, 10, 20, 0}
+30          for(i = 0; i < OVERFLOW; i++) {
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 0}
+10: i = 2
+9: k = 10
+8: i = 2
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 0}
+4: j = 10
+3: k = 10
+2: i = 2
+1: a = {0, 10, 20, 0}
+(gdb) next
+31              a[i] = i * 10;
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 0}
+10: i = 3
+9: k = 10
+8: i = 3
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 0}
+4: j = 10
+3: k = 10
+2: i = 3
+1: a = {0, 10, 20, 0}
+(gdb) next
+32              printf("i = %d, j = %d, k = %d\t\t", i, j, k);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 3
+9: k = 10
+8: i = 3
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 3
+1: a = {0, 10, 20, 30}
+(gdb) next
+33              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 3
+9: k = 10
+8: i = 3
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 3
+1: a = {0, 10, 20, 30}
+(gdb) next
+i = 3, j = 10, k = 10           a = {0, 10, 20, 30}
+30          for(i = 0; i < OVERFLOW; i++) {
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 3
+9: k = 10
+8: i = 3
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 3
+1: a = {0, 10, 20, 30}
+(gdb) next
+31              a[i] = i * 10;
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 4
+9: k = 10
+8: i = 4
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 4
+1: a = {0, 10, 20, 30}
+(gdb) next
+32              printf("i = %d, j = %d, k = %d\t\t", i, j, k);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 40
+9: k = 10
+8: i = 40
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 40
+1: a = {0, 10, 20, 30}
+(gdb) next
+33              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 40
+9: k = 10
+8: i = 40
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 40
+1: a = {0, 10, 20, 30}
+(gdb) next
+i = 40, j = 10, k = 10          a = {0, 10, 20, 30}
+30          for(i = 0; i < OVERFLOW; i++) {
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 40
+9: k = 10
+8: i = 40
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 40
+1: a = {0, 10, 20, 30}
+(gdb) display k
+15: k = 10
+(gdb) display k(gdb) [5Pnext
+37          return 0;
+15: k = 10
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 41
+9: k = 10
+8: i = 41
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 41
+1: a = {0, 10, 20, 30}
+(gdb) next
+38      }
+15: k = 10
+14: k = 10
+13: index = 4
+12: j = 10
+11: a = {0, 10, 20, 30}
+10: i = 41
+9: k = 10
+8: i = 41
+7: j = 10
+6: k = 10
+5: a = {0, 10, 20, 30}
+4: j = 10
+3: k = 10
+2: i = 41
+1: a = {0, 10, 20, 30}
+(gdb) next
+__libc_start_main (main=0x400584 <main>, argc=1, ubp_av=0x7fffffffeb48, 
+    init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7fffffffeb38) at libc-start.c:258
+258     libc-start.c: No such file or directory.
+(gdb) display i
+No symbol "i" in current context.
+(gdb) display i(gdb) [5Pnextdisplay i k
+No symbol "k" in current context.
+(gdb) quit
+A debugging session is active.
+
+        Inferior 1 [process 42656] will be killed.
+
+Quit anyway? (y or n) ex^?^?^[[D^[[D^[[3~^[[3~^[[Dy
+Please answer y or n.
+A debugging session is active.
+
+        Inferior 1 [process 42656] will be killed.
+
+Quit anyway? (y or n) y
+greywolf:~/Exercises209/e2% exit
+exit
+
+Script done on Fri Jan 24 09:34:25 2014

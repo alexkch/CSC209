@@ -1,0 +1,338 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  24460  2260 ?        Ss    2013   0:20 /sbin/init
+root         2  0.0  0.0      0     0 ?        S     2013   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S     2013   0:08 [ksoftirqd/0]
+root         6  0.0  0.0      0     0 ?        S     2013   0:01 [migration/0]
+root         7  0.0  0.0      0     0 ?        S     2013   0:03 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S     2013   0:07 [migration/1]
+root        10  0.0  0.0      0     0 ?        S     2013   0:06 [ksoftirqd/1]
+root        11  0.0  0.0      0     0 ?        S     2013   0:56 [kworker/0:1]
+root        12  0.0  0.0      0     0 ?        S     2013   0:04 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S     2013   0:06 [migration/2]
+root        14  0.0  0.0      0     0 ?        S     2013   0:36 [kworker/2:0]
+root        15  0.0  0.0      0     0 ?        S     2013   0:04 [ksoftirqd/2]
+root        16  0.0  0.0      0     0 ?        S     2013   0:04 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S     2013   0:01 [migration/3]
+root        19  0.0  0.0      0     0 ?        S     2013   0:02 [ksoftirqd/3]
+root        20  0.0  0.0      0     0 ?        S     2013   0:04 [watchdog/3]
+root        21  0.0  0.0      0     0 ?        S     2013   0:04 [migration/4]
+root        23  0.0  0.0      0     0 ?        S     2013   0:05 [ksoftirqd/4]
+root        24  0.0  0.0      0     0 ?        S     2013   0:05 [watchdog/4]
+root        25  0.0  0.0      0     0 ?        S     2013   0:07 [migration/5]
+root        27  0.0  0.0      0     0 ?        S     2013   0:12 [ksoftirqd/5]
+root        28  0.0  0.0      0     0 ?        S     2013   0:05 [watchdog/5]
+root        29  0.0  0.0      0     0 ?        S     2013   0:05 [migration/6]
+root        31  0.0  0.0      0     0 ?        S     2013   0:04 [ksoftirqd/6]
+root        32  0.0  0.0      0     0 ?        S     2013   0:05 [watchdog/6]
+root        33  0.0  0.0      0     0 ?        S     2013   0:06 [migration/7]
+root        35  0.0  0.0      0     0 ?        S     2013   0:23 [ksoftirqd/7]
+root        36  0.0  0.0      0     0 ?        S     2013   0:06 [watchdog/7]
+root        37  0.0  0.0      0     0 ?        S<    2013   0:00 [cpuset]
+root        38  0.0  0.0      0     0 ?        S<    2013   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S     2013   0:00 [kdevtmpfs]
+root        40  0.0  0.0      0     0 ?        S<    2013   0:00 [netns]
+root        41  0.0  0.0      0     0 ?        S     2013   0:11 [kworker/u:1]
+root        42  0.0  0.0      0     0 ?        S     2013   0:06 [sync_supers]
+root        43  0.0  0.0      0     0 ?        S     2013   0:00 [bdi-default]
+root        44  0.0  0.0      0     0 ?        S<    2013   0:00 [kintegrityd]
+root        45  0.0  0.0      0     0 ?        S<    2013   0:00 [kblockd]
+root        46  0.0  0.0      0     0 ?        S<    2013   0:00 [ata_sff]
+root        47  0.0  0.0      0     0 ?        S     2013   0:00 [khubd]
+root        48  0.0  0.0      0     0 ?        S<    2013   0:00 [md]
+root        49  0.0  0.0      0     0 ?        S     2013   0:51 [kworker/4:1]
+root        50  0.0  0.0      0     0 ?        S     2013   0:01 [khungtaskd]
+root        51  0.0  0.0      0     0 ?        S     2013   0:01 [kswapd0]
+root        52  0.0  0.0      0     0 ?        S     2013   0:03 [kswapd1]
+root        53  0.0  0.0      0     0 ?        SN    2013   0:00 [ksmd]
+root        54  0.0  0.0      0     0 ?        SN    2013   0:00 [khugepaged]
+root        55  0.0  0.0      0     0 ?        S     2013   0:00 [fsnotify_mark]
+root        56  0.0  0.0      0     0 ?        S     2013   0:00 [ecryptfs-kthrea]
+root        57  0.0  0.0      0     0 ?        S<    2013   0:00 [crypto]
+root        65  0.0  0.0      0     0 ?        S<    2013   0:00 [kthrotld]
+root        85  0.0  0.0      0     0 ?        S<    2013   0:00 [devfreq_wq]
+root       258  0.0  0.0      0     0 ?        S     2013   0:00 [scsi_eh_0]
+root       259  0.0  0.0      0     0 ?        S     2013   0:00 [scsi_eh_1]
+root       261  0.0  0.0      0     0 ?        S     2013   0:00 [scsi_eh_2]
+root       262  0.0  0.0      0     0 ?        S     2013   0:00 [scsi_eh_3]
+root       263  0.0  0.0      0     0 ?        S     2013   0:11 [kworker/u:3]
+root       265  0.0  0.0      0     0 ?        R     2013   0:20 [kworker/2:1]
+root       268  0.0  0.0      0     0 ?        S     2013   0:17 [kworker/1:1]
+root       272  0.0  0.0      0     0 ?        S     2013   0:24 [kworker/3:1]
+root       287  0.0  0.0      0     0 ?        S     2013  20:05 [md0_raid1]
+root       321  0.0  0.0      0     0 ?        S     2013   0:06 [jbd2/md0p2-8]
+root       322  0.0  0.0      0     0 ?        S<    2013   0:00 [ext4-dio-unwrit]
+root       393  0.0  0.0  17236   640 ?        S     2013   0:01 upstart-udev-bridge --daemon
+root       395  0.0  0.0  21992  1600 ?        Ss    2013   0:01 /sbin/udevd --daemon
+root       415  0.0  0.0      0     0 ?        S     2013   0:35 [jbd2/md0p4-8]
+root       416  0.0  0.0      0     0 ?        S<    2013   0:00 [ext4-dio-unwrit]
+root       422  0.0  0.0      0     0 ?        S     2013   0:14 [jbd2/md0p5-8]
+root       423  0.0  0.0      0     0 ?        S<    2013   0:00 [ext4-dio-unwrit]
+root       430  0.0  0.0      0     0 ?        S     2013   0:01 [jbd2/md0p6-8]
+root       431  0.0  0.0      0     0 ?        S<    2013   0:00 [ext4-dio-unwrit]
+root       594  0.0  0.0      0     0 ?        S<    2013   0:00 [edac-poller]
+root       607  0.0  0.0      0     0 ?        S<    2013   0:00 [kpsmoused]
+root       676  0.0  0.0      0     0 ?        S<    2013   0:00 [rpciod]
+root       687  0.0  0.0  15192   444 ?        S     2013   0:00 upstart-socket-bridge --daemon
+root       691  0.0  0.0  19204  1040 ?        Ss    2013   0:02 rpcbind -w
+root       716  0.0  0.0      0     0 ?        S     2013   0:32 [kworker/6:2]
+statd      741  0.0  0.0  21508  1396 ?        Ss    2013   0:00 rpc.statd -L
+root       756  0.0  0.0 250244  9068 ?        Sl    2013   2:39 rsyslogd -c5
+root       774  0.0  0.0      0     0 ?        S<    2013   0:00 [nfsiod]
+root       853  0.0  0.0  25632   904 ?        Ss    2013   0:02 rpc.idmapd
+72         870  0.0  0.0  24400  1824 ?        Ss    2013   0:01 dbus-daemon --system --fork --activation=upstart
+root       882  0.0  0.0  21192  1680 ?        Ss    2013   0:01 /usr/sbin/bluetoothd
+root       895  0.0  0.0      0     0 ?        S<    2013   0:00 [krfcommd]
+root       898  0.0  0.0      0     0 ?        S     2013   0:31 [flush-9:0]
+root       957  0.0  0.0  12936   948 tty4     Ss+   2013   0:00 /sbin/getty -8 38400 tty4
+root       962  0.0  0.0  12936   944 tty5     Ss+   2013   0:00 /sbin/getty -8 38400 tty5
+root       970  0.0  0.0  12936   944 tty2     Ss+   2013   0:00 /sbin/getty -8 38400 tty2
+root       971  0.0  0.0  12936   948 tty3     Ss+   2013   0:00 /sbin/getty -8 38400 tty3
+root       972  0.0  0.0   4404   612 ?        Ss    2013   0:00 /bin/sh /usr/bin/svscanboot
+root       974  0.0  0.0  12936   948 tty6     Ss+   2013   0:00 /sbin/getty -8 38400 tty6
+root       978  0.0  0.0  14972   992 ?        Ss    2013   0:00 /usr/sbin/xinetd -dontfork -pidfile /var/run/xinetd.pid -stayalive
+root       980  0.0  0.0  19116  1036 ?        Ss    2013   0:17 cron
+root      1003  0.0  0.0 579712  2072 ?        Ssl   2013   0:58 /usr/sbin/automount
+root      1007  0.0  0.0   4344   480 ?        S     2013   0:28 svscan /etc/service
+root      1008  0.0  0.0   4160   352 ?        S     2013   0:00 readproctitle service errors: ................................................................................................................................................................................................................................................................................................................................................................................................................
+root      1010  0.0  0.0   4172   348 ?        S     2013   0:00 supervise publicfile-httpd
+root      1011  0.0  0.0   4172   348 ?        S     2013   0:00 supervise log
+root      1012  0.0  0.0   4172   352 ?        S     2013   0:00 supervise ntpd
+root      1013  0.0  0.0   4172   352 ?        S     2013   0:00 supervise log
+root      1014  0.0  0.0   4172   352 ?        S     2013   0:00 supervise cfexecd
+root      1015  0.0  0.0   4172   352 ?        S     2013   0:00 supervise log
+root      1016  0.0  0.0   4172   352 ?        S     2013   0:00 supervise qmail-send
+root      1017  0.0  0.0   4172   348 ?        S     2013   0:00 supervise log
+root      1018  0.0  0.0   4172   348 ?        S     2013   0:00 supervise cfenvd
+root      1019  0.0  0.0   4172   348 ?        S     2013   0:00 supervise log
+root      1020  0.0  0.0   4172   348 ?        S     2013   0:00 supervise smartd
+root      1021  0.0  0.0   4172   348 ?        S     2013   0:00 supervise log
+root      1027  0.0  0.0   5232   496 ?        S     2013   0:02 tcpserver -vDRHl0 -b50 -c100 128.100.31.203 80 httpd /var/publicfile/file
+nobody    1028  0.0  0.0   4308   620 ?        S     2013   0:02 logger -i -t publicfile-httpd -p daemon.info
+qmails    1029  0.0  0.0   2176   408 ?        S     2013   0:00 qmail-send
+qmaill    1030  0.0  0.0   2152   480 ?        S     2013   0:00 splogger qmail
+nobody    1033  0.0  0.0   4308   352 ?        S     2013   0:00 logger -i -t smartd -p daemon.info
+root      1034  0.0  0.0  19648  2208 ?        S     2013   0:01 smartd --no-fork --quit=errors --interval=1800 --configfile=/etc/smartd.conf --logfacility=daemon --pidfile=/var/run/smartd.pid
+root      1035  0.0  0.0  27240  3128 ?        S     2013   1:39 cfenvd -F
+nobody    1036  0.0  0.0   4308   612 ?        S     2013   0:00 logger -p daemon.err -t cfexecd
+nobody    1037  0.0  0.0   4308   348 ?        S     2013   0:00 logger -p daemon.err -t cfenvd
+nobody    1042  0.0  0.0   4308   616 ?        S     2013   0:00 logger -i -t ntpd -p daemon.info
+root      1085  0.0  0.0   2160   276 ?        S     2013   0:00 qmail-lspawn |dot-forward .forward?|preline procmail
+qmailr    1086  0.0  0.0   2156   292 ?        S     2013   0:00 qmail-rspawn
+qmailq    1087  0.0  0.0   2140   380 ?        S     2013   0:00 qmail-clean
+qmails    1088  0.0  0.0   2164   404 ?        S     2013   0:00 qmail-todo
+qmailq    1089  0.0  0.0   2140   380 ?        S     2013   0:00 qmail-clean
+daemon    1098  0.1  0.0  30876   664 ?        Ss    2013  77:21 lpd Waiting  
+root      1134  0.0  0.0      0     0 ?        S     2013   0:00 [lockd]
+root      1144  0.0  0.0      0     0 ?        S<    2013   0:00 [nfsd4]
+root      1145  0.0  0.0      0     0 ?        S<    2013   0:00 [nfsd4_callbacks]
+root      1146  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1147  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1148  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1149  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1150  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1151  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1152  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1153  0.0  0.0      0     0 ?        S     2013   0:00 [nfsd]
+root      1157  0.0  0.0  24012   944 ?        Ss    2013   0:00 /usr/sbin/rpc.mountd --manage-gids
+root      1214  0.0  0.0  13368   800 ?        Ss    2013   0:00 /sbin/mdadm --monitor --pid-file /var/run/mdadm/monitor.pid --daemonise --scan --syslog
+root      1687  0.0  0.0   4404   628 ?        S     2013   0:06 /bin/sh /var/cfengine/local/cfengine_scheduler.sh
+root      1907  0.0  0.0 219908  4244 ?        Sl   Jan15   0:00 /usr/lib/upower/upowerd
+root      2155  0.0  0.0  50036  2712 ?        Ss    2013   0:09 /usr/sbin/sshd -D
+g1op      2165  0.0  0.0 172208 10648 pts/29   Sl+  03:52   0:14 vi a1.tex
+root      2323  0.0  0.0  63652  1728 ?        S     2013   0:00 CRON
+g1canasf  2367  0.0  0.0   4404   604 ?        Ss    2013   0:00 /bin/sh -c python ~/CSC309/a2/csc309-a2/automate_tracking.py  
+g1canasf  2369  0.0  0.0  50572 12492 ?        S     2013   0:00 python /h/u15/g1/00/g1canasf/CSC309/a2/csc309-a2/automate_tracking.py
+g1canasf  2380  0.0  0.0   4404   600 ?        S     2013   0:00 /bin/sh /h/u15/g1/00/g1canasf/CSC309/a2/csc309-a2/golive.sh
+g1canasf  2381  0.0  0.0  49524 15640 ?        S     2013   0:00 python manage.py runserver redwolf.cdf.toronto.edu:30945
+g1canasf  2389  0.6  0.0 288700 26244 ?        Sl    2013 334:49 /usr/bin/python manage.py runserver redwolf.cdf.toronto.edu:30945
+root      2482  0.0  0.0  94644  3776 ?        Ss   Jan20   0:00 sshd: g3kovale [priv]
+g3kovale  2490  0.0  0.0  94964  2216 ?        S    Jan20   0:11 sshd: g3kovale@pts/19
+g3kovale  2491  0.0  0.0  18068  1900 pts/19   Ss+  Jan20   0:00 -bash
+root      4916  0.0  0.0      0     0 ?        S    Jan15   0:26 [kworker/5:0]
+root      9025  0.0  0.0  94644  3784 ?        Ss   Jan20   0:00 sshd: g3kovale [priv]
+g3kovale  9032  0.0  0.0  94964  2196 ?        S    Jan20   0:05 sshd: g3kovale@pts/26
+g3kovale  9033  0.0  0.0  18068  1900 pts/26   Ss+  Jan20   0:00 -bash
+root      9181  0.0  0.0 193640  4120 ?        Sl   Jan14   0:20 /usr/lib/udisks/udisks-daemon
+root      9184  0.0  0.0  45520   800 ?        S    Jan14   0:00 udisks-daemon: not polling any devices
+root     11579  0.0  0.0  96732  3752 ?        Ss   12:27   0:00 sshd: g3brentl [priv]
+g3brentl 11595  0.0  0.0  96732  1740 ?        S    12:27   0:00 sshd: g3brentl@pts/8
+g3brentl 11596  0.0  0.0  18124  1916 pts/8    Ss   12:27   0:00 -bash
+g3brentl 11625  0.0  0.0  18124  1988 pts/8    S+   12:27   0:00 bash
+root     14119  0.0  0.0  96732  3764 ?        Ss   13:03   0:00 sshd: g3bj [priv]   
+g3bj     14124  0.0  0.0  96888  1872 ?        S    13:03   0:00 sshd: g3bj@pts/20   
+g3bj     14125  0.0  0.0  18112  2000 pts/20   Ss+  13:03   0:00 -bash
+root     14165  0.0  0.0  96732  3740 ?        Ss   13:04   0:00 sshd: g3bj [priv]   
+g3bj     14170  0.0  0.0  96884  1884 ?        S    13:04   0:00 sshd: g3bj@notty    
+g3bj     14171  0.0  0.0  12912   932 ?        Ss   13:04   0:00 /usr/lib/openssh/sftp-server
+root     14173  0.0  0.0  96724  3776 ?        Ss   13:04   0:00 sshd: campbell [priv]
+campbell 14177  0.0  0.0  96724  1824 ?        S    13:04   0:00 sshd: campbell@pts/1
+campbell 14178  0.0  0.0  18092  1840 pts/1    Ss   13:04   0:00 -tcsh
+campbell 14185  0.0  0.0  18132  2020 pts/1    S+   13:04   0:00 bash
+root     16391  0.0  0.0  94644  3780 ?        Ss   Jan20   0:00 sshd: g3martip [priv]
+g3martip 16395  0.0  0.0  96152  3280 ?        S    Jan20   0:00 sshd: g3martip@pts/52
+g3martip 16396  0.0  0.0  18228  1980 pts/52   Ss   Jan20   0:00 -tcsh
+g3martip 16438  0.0  0.4 345452 120868 pts/52  Sl+  Jan20   3:00 quartus
+root     18077  0.0  0.0  96724  3724 ?        Ss   13:51   0:00 sshd: g3spence [priv]
+g3spence 18081  0.0  0.0  96724  1740 ?        S    13:51   0:00 sshd: g3spence@notty
+g3spence 18082  0.0  0.0  12780   912 ?        Ss   13:51   0:00 /usr/lib/openssh/sftp-server
+root     19014  0.0  0.0  94644  3780 ?        Ss   14:03   0:00 sshd: c0luowen [priv]
+c0luowen 19018  0.0  0.0  96152  3280 ?        S    14:03   0:05 sshd: c0luowen@pts/24
+c0luowen 19019  0.0  0.0  18228  1980 pts/24   Ss   14:03   0:00 -tcsh
+c3kimmiq 19039  0.0  0.0  22096  1404 ?        Sl   Jan23   0:06 adb -P 5037 fork-server server
+c0luowen 19241  0.5  0.4 364792 119848 pts/24  Sl+  14:07   0:41 quartus
+root     21156  0.0  0.0  96732  3756 ?        Ss   14:26   0:00 sshd: c3kamran [priv]
+c3kamran 21184  0.0  0.0  96732  1736 ?        S    14:26   0:00 sshd: c3kamran@pts/9
+c3kamran 21185  0.0  0.0  18256  2084 pts/9    Ss+  14:26   0:00 -tcsh
+root     21473  0.0  0.0  96732  3704 ?        Ss   14:29   0:00 sshd: g2premac [priv]
+g2premac 21479  0.0  0.0  96884  1884 ?        S    14:29   0:00 sshd: g2premac@notty
+g2premac 21480  0.0  0.0  17780  1336 ?        Ss   14:29   0:00 tcsh -c /usr/lib/openssh/sftp-server
+g2premac 21482  0.0  0.0  12920   924 ?        S    14:29   0:00 /usr/lib/openssh/sftp-server
+root     21551  0.0  0.0  96732  3704 ?        Ss   14:30   0:00 sshd: g2premac [priv]
+g2premac 21556  0.0  0.0  97044  1884 ?        S    14:30   0:00 sshd: g2premac@notty
+g2premac 21557  0.0  0.0  17780  1340 ?        Ss   14:30   0:00 tcsh -c /usr/lib/openssh/sftp-server
+g2premac 21559  0.0  0.0  12916   984 ?        S    14:30   0:00 /usr/lib/openssh/sftp-server
+root     21570  0.0  0.0  96732  3748 ?        Ss   14:30   0:00 sshd: g2premac [priv]
+g2premac 21578  0.0  0.0  96732  1732 ?        S    14:30   0:00 sshd: g2premac@pts/38
+g2premac 21579  0.0  0.0  18236  2044 pts/38   Ss+  14:30   0:00 -tcsh
+root     22155  0.0  0.0  96724  3772 ?        Ss   14:35   0:00 sshd: reid [priv]   
+reid     22159  0.0  0.0  96724  1740 ?        S    14:35   0:00 sshd: reid@pts/40   
+reid     22160  0.0  0.0  18384  2248 pts/40   Ss+  14:35   0:00 -bash
+root     22538  0.0  0.0  96728  3764 ?        Ss   14:38   0:00 sshd: g3yu [priv]   
+g3yu     22605  0.0  0.0  96888  1748 ?        S    14:39   0:00 sshd: g3yu@pts/39   
+g3yu     22606  0.0  0.0  18152  2064 pts/39   Ss+  14:39   0:00 -bash
+root     22628  0.0  0.0  96732  3752 ?        Ss   14:39   0:00 sshd: c2changk [priv]
+c2changk 22638  0.0  0.0  96732  1860 ?        S    14:39   0:00 sshd: c2changk@pts/43
+c2changk 22639  0.0  0.0  18076  1976 pts/43   Ss   14:39   0:00 -bash
+root     22727  0.0  0.0  96732  3756 ?        Ss   14:40   0:00 sshd: c3peterv [priv]
+c3peterv 22733  0.0  0.0  96732  1744 ?        S    14:40   0:00 sshd: c3peterv@pts/44
+c3peterv 22734  0.0  0.0  18108  2020 pts/44   Ss+  14:40   0:00 -bash
+root     23575  0.0  0.0  96728  3884 ?        Ss   14:45   0:00 sshd: c3chentj [priv]
+c3chentj 23579  0.0  0.0  96856  2072 ?        S    14:45   0:00 sshd: c3chentj@pts/45
+c3chentj 23580  0.0  0.0  18144  2052 pts/45   Ss+  14:45   0:00 -bash
+root     29434  0.0  0.0  96724  3720 ?        Ss   Jan22   0:00 sshd: c4makhza [priv]
+c4makhza 29438  0.0  0.0  96724  1740 ?        S    Jan22   0:00 sshd: c4makhza@notty
+c4makhza 29439  0.0  0.0  17780  1332 ?        Ss   Jan22   0:00 tcsh -c /usr/lib/openssh/sftp-server
+c4makhza 29441  0.0  0.0  12780   904 ?        S    Jan22   0:00 /usr/lib/openssh/sftp-server
+rtkit    31170  0.0  0.0 168876  1280 ?        SNl  Jan09   0:08 /usr/lib/rtkit/rtkit-daemon
+c3canabr 31388 99.7  0.0  67548  7248 ?        R    Jan22 3234:09 fluid
+root     35347  0.0  0.0  96732  3732 ?        Ss   15:01   0:00 sshd: g2halazi [priv]
+g2halazi 35388  0.0  0.0  97724  2880 ?        S    15:01   0:00 sshd: g2halazi@notty
+g2halazi 35393  0.0  0.0  13072  1024 ?        Ss   15:01   0:00 /usr/lib/openssh/sftp-server
+root     35891  0.0  0.0  96732  3760 ?        Ss   15:05   0:00 sshd: t3jingoi [priv]
+t3jingoi 35896  0.0  0.0  96732  1864 ?        S    15:06   0:00 sshd: t3jingoi@pts/17
+t3jingoi 35897  0.0  0.0  18740  2472 pts/17   Ss+  15:06   0:00 -tcsh
+root     36347  0.0  0.0  96732  3696 ?        Ss   15:07   0:00 sshd: g0wongdf [priv]
+g0wongdf 36351  0.0  0.0  96884  1892 ?        S    15:07   0:00 sshd: g0wongdf@notty
+g0wongdf 36352  0.0  0.0  12920   928 ?        Ss   15:07   0:00 /usr/lib/openssh/sftp-server
+root     36353  0.0  0.0  96732  3732 ?        Ss   15:07   0:00 sshd: t3jingoi [priv]
+t3jingoi 36363  0.0  0.0  97044  2116 ?        S    15:07   0:00 sshd: t3jingoi@notty
+t3jingoi 36364  0.0  0.0  17780  1332 ?        Ss   15:07   0:00 tcsh -c /usr/lib/openssh/sftp-server
+t3jingoi 36366  0.0  0.0  12932  1132 ?        S    15:07   0:00 /usr/lib/openssh/sftp-server
+root     36946  0.0  0.0  96732  3744 ?        Ss   15:11   0:00 sshd: g3odonne [priv]
+g3odonne 36957  0.0  0.0  96732  1732 ?        S    15:11   0:00 sshd: g3odonne@pts/23
+g3odonne 36959  0.0  0.0  18088  1968 pts/23   Ss+  15:11   0:00 -bash
+root     37371  0.0  0.0  96732  3748 ?        Ss   15:13   0:00 sshd: g3waleed [priv]
+g3waleed 37381  0.0  0.0  96884  1732 ?        S    15:13   0:00 sshd: g3waleed@pts/25
+g3waleed 37382  0.0  0.0  18136  2016 pts/25   Ss   15:13   0:00 -bash
+root     37647  0.0  0.0      0     0 ?        S    Jan10   0:13 [kworker/0:0]
+root     38039  0.0  0.0  96732  3748 ?        Ss   15:21   0:00 sshd: g3slynny [priv]
+g3slynny 38052  0.0  0.0  96732  1736 ?        S    15:21   0:00 sshd: g3slynny@pts/28
+g3slynny 38053  0.0  0.0  18232  2020 pts/28   Ss+  15:21   0:00 -tcsh
+root     38333  0.0  0.0  96724  3764 ?        Ss   15:25   0:00 sshd: c2sanghc [priv]
+c2sanghc 38387  0.0  0.0  96724  1744 ?        S    15:25   0:00 sshd: c2sanghc@pts/36
+c2sanghc 38388  0.0  0.0  18068  1980 pts/36   Ss+  15:25   0:00 -bash
+ntp      38419  0.0  0.0  33540  2604 ?        S    00:02   0:01 ntpd -u ntp:ntp -n -g -c /etc/ntp.conf -p /var/run/ntpd.pid
+root     38479  0.0  0.0  96732  3748 ?        Ss   15:27   0:00 sshd: g2shakhi [priv]
+g2shakhi 38483  0.0  0.0  96888  1968 ?        S    15:27   0:00 sshd: g2shakhi@pts/7
+g2shakhi 38484  0.0  0.0  18156  2096 pts/7    Ss+  15:27   0:00 -bash
+g3waleed 39583  0.0  0.0 170160  8152 pts/25   Sl+  15:41   0:00 vi arrays.c
+root     39728  0.0  0.0  94644  3784 ?        Ss   00:23   0:00 sshd: g3barkov [priv]
+g3barkov 39732  0.0  0.0  94964  1956 ?        S    00:23   0:00 sshd: g3barkov@pts/11
+g3barkov 39733  0.0  0.0  18104  1968 pts/11   Ss+  00:23   0:00 -bash
+root     40696  0.0  0.0  96732  3748 ?        Ss   15:52   0:00 sshd: g2gabuel [priv]
+g2gabuel 40700  0.0  0.0  96884  1732 ?        S    15:52   0:00 sshd: g2gabuel@pts/18
+g2gabuel 40701  0.0  0.0  18356  2244 pts/18   Ss+  15:52   0:00 -bash
+root     41002  0.0  0.0  96732  3744 ?        Ss   15:56   0:00 sshd: g3rfranz [priv]
+root     41019  0.0  0.0  96732  3744 ?        Ss   15:57   0:00 sshd: g2md [priv]   
+g2md     41052  0.0  0.0  96732  1740 ?        S    15:57   0:00 sshd: g2md@pts/35   
+g2md     41053  0.0  0.0  18148  2056 pts/35   Ss+  15:57   0:00 -bash
+g3rfranz 41065  0.0  0.0  96732  1736 ?        S    15:57   0:00 sshd: g3rfranz@pts/37
+g3rfranz 41066  0.0  0.0  18080  1992 pts/37   Ss+  15:57   0:00 -bash
+root     41234  0.0  0.0  96732  3760 ?        Ss   15:58   0:00 sshd: c3rahmao [priv]
+root     41246  0.0  0.0  96732  3756 ?        Ss   15:58   0:00 sshd: c2oushal [priv]
+c2oushal 41252  0.0  0.0  96732  1740 ?        S    15:58   0:00 sshd: c2oushal@pts/3
+c2oushal 41253  0.0  0.0  18084  1940 pts/3    Ss+  15:58   0:00 -bash
+c3rahmao 41270  0.0  0.0  96732  1740 ?        S    15:58   0:00 sshd: c3rahmao@pts/46
+c3rahmao 41271  0.0  0.0  18104  1988 pts/46   Ss+  15:58   0:00 -bash
+root     41940  0.0  0.0  94644  3780 ?        Ss   16:05   0:00 sshd: g3teemo [priv]
+g3teemo  41944  0.3  0.0  96152  3280 ?        S    16:05   0:01 sshd: g3teemo@pts/22
+g3teemo  41945  0.0  0.0  18128  1916 pts/22   Ss   16:05   0:00 -bash
+g3teemo  41957  1.2  0.4 372316 117860 pts/22  Sl+  16:05   0:07 quartus
+root     42257  0.0  0.0  94644  3776 ?        Ss   16:09   0:00 sshd: g3helios [priv]
+g3helios 42261  0.7  0.0  96152  3252 ?        S    16:09   0:02 sshd: g3helios@pts/15
+g3helios 42262  0.0  0.0  18124  1912 pts/15   Ss   16:09   0:00 -bash
+g3helios 42270  2.6  0.3 369800 114760 pts/15  Sl+  16:09   0:09 quartus
+root     42361  0.0  0.0  96732  3800 ?        Ss   16:10   0:00 sshd: c1niedex [priv]
+c1niedex 42368  0.0  0.0  96732  1796 ?        S    16:10   0:00 sshd: c1niedex@pts/0
+c1niedex 42369  0.0  0.0  18068  1968 pts/0    Ss+  16:10   0:00 -bash
+root     42628  0.0  0.0      0     0 ?        S    16:14   0:00 [flush-0:33]
+root     42635  0.0  0.0  95252  3420 ?        Ss   16:14   0:00 sshd: g3theuma [priv]
+sshd     42636  0.0  0.0  51460  1328 ?        S    16:14   0:00 sshd: g3theuma [net]
+root     42638  0.0  0.0   4312   348 ?        S    16:14   0:00 sleep 300
+c2changk 42639  0.0  0.0  15284  1120 pts/43   R+   16:14   0:00 ps -aux
+root     44308  0.0  0.0      0     0 ?        S     2013   0:38 [kworker/6:0]
+root     44836  0.0  0.0      0     0 ?        S     2013   0:43 [kworker/5:2]
+root     45003  0.0  0.0  94644  3776 ?        Ss   Jan20   0:00 sshd: g3hezhi [priv]
+g3hezhi  45007  0.0  0.0  96152  3276 ?        S    Jan20   0:00 sshd: g3hezhi@pts/6 
+g3hezhi  45008  0.0  0.0  18228  1984 pts/6    Ss   Jan20   0:00 -tcsh
+g3hezhi  45015  0.0  0.3 340652 114408 pts/6   Sl+  Jan20   2:50 quartus
+root     45183  0.0  0.0      0     0 ?        S     2013   0:45 [kworker/4:2]
+root     45555  0.0  0.0      0     0 ?        S<    2013   0:00 [xfs_mru_cache]
+root     45556  0.0  0.0      0     0 ?        S<    2013   0:00 [xfslogd]
+root     45557  0.0  0.0      0     0 ?        S<    2013   0:00 [xfsdatad]
+root     45558  0.0  0.0      0     0 ?        S<    2013   0:00 [xfsconvertd]
+root     45561  0.0  0.0      0     0 ?        S     2013   0:00 [jfsIO]
+root     45562  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45563  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45564  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45565  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45566  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45567  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45568  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45569  0.0  0.0      0     0 ?        S     2013   0:00 [jfsCommit]
+root     45570  0.0  0.0      0     0 ?        S     2013   0:00 [jfsSync]
+root     45897  0.0  0.0      0     0 ?        S     2013   0:08 [kworker/3:2]
+root     46977  0.0  0.0      0     0 ?        S     2013   0:21 [kworker/1:0]
+root     47607  0.0  0.0  12936   944 tty1     Ss+  Jan10   0:00 /sbin/getty -8 38400 tty1
+root     49486  0.0  0.0 4188788 3880 ?        Sl    2013   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root     49553  0.0  0.0 195524  4076 ?        Sl    2013   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root     51595  0.0  0.0  21988  1144 ?        S    09:05   0:00 /sbin/udevd --daemon
+root     52814  0.0  0.0      0     0 ?        S    Jan17   1:12 [kworker/7:2]
+root     54078  0.0  0.0  96736  3872 ?        Ss   Jan21   0:00 sshd: lloyd [priv]  
+lloyd    54084  0.0  0.0  96736  1964 ?        S    Jan21   0:00 sshd: lloyd@pts/27  
+lloyd    54085  0.0  0.0  18252  2036 pts/27   Ss+  Jan21   0:00 -tcsh
+g2peter  54423  0.0  0.1 357580 43612 ?        Sl   Jan14   0:01 /local/lib/matlab-7.1/bin/glnxa64/MATLAB
+root     54448  0.0  0.0  96728  3876 ?        Ss   Jan10   0:00 sshd: ccc [priv]    
+ccc      54452  0.0  0.0  97048  2036 ?        S    Jan10   0:00 sshd: ccc@notty     
+ccc      54453  0.0  0.0  17836  1336 ?        Ss   Jan10   0:00 tcsh -c xterm -T redwolf
+ccc      54457  0.0  0.0  58864  3732 ?        S    Jan10   0:00 xterm -T redwolf
+ccc      54459  0.0  0.0  18336  2136 pts/2    Ss+  Jan10   0:00 -csh
+g2peter  54487  0.0  0.0   3292   872 pts/33   Ss+  Jan14   0:00 /local/lib/matlab-7.1/bin/glnx86/matlab_helper /dev/pts/33
+g1op     55308  0.0  0.0  25052  2300 ?        Ss   Jan23   0:03 SCREEN
+g1op     55309  0.0  0.0  18292  2200 pts/29   Ss   Jan23   0:00 /var/shell/bash
+g1op     55313  0.0  0.0  18292  2200 pts/31   Ss+  Jan23   0:00 /var/shell/bash
+g3g      55998  0.0  0.0  23956   792 ?        Ss   Jan13   0:00 //bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+g3g      56103  0.0  0.0  49904  2484 ?        S    Jan13   0:01 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+g3g      56105  0.0  0.0  45360  2256 ?        S    Jan13   0:00 /usr/lib/gvfs/gvfsd
+root     56872  0.0  0.0  96736  3876 ?        Ss   Jan21   0:00 sshd: lloyd [priv]  
+lloyd    56882  0.0  0.0  97468  2716 ?        S    Jan21   0:02 sshd: lloyd@pts/34  
+lloyd    56883  0.0  0.0  18668  2332 pts/34   Ss   Jan21   0:00 -tcsh
+lloyd    56921  0.0  0.0 180328 23596 pts/34   S+   Jan21   0:08 alpine
+root     57445  0.0  0.0      0     0 ?        S    Jan15   1:48 [kworker/7:1]
+g3vision 61025  0.0  0.0   4160   344 ?        S    Jan11   0:08 longproc
+g3vision 61357  0.0  0.0   4160   348 ?        S    Jan11   0:08 longproc
+g3fanrya 62393  0.0  0.0   4160   348 ?        S    Jan12   0:07 adir/longproc
+g3alany  62556 99.9  0.0  23244  3620 ?        R    Jan13 15917:30 prolog
+root     63024  0.0  0.0  96728  3936 ?        Ss   Jan21   0:00 sshd: lloyd [priv]  
+lloyd    63028  0.0  0.0  96728  1796 ?        S    Jan21   0:00 sshd: lloyd@pts/41  
+lloyd    63029  0.0  0.0  18252  2040 pts/41   Ss+  Jan21   0:00 -tcsh

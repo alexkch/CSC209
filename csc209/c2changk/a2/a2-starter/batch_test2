@@ -1,0 +1,20 @@
+add_calendar cal1
+add_calendar cal2
+add_calendar cal3
+add_user user1
+add_user josh
+add_user daniel
+add_user alex
+add_event cal2 209 1 2 3
+add_event cal2 303 2 3 4
+add_event cal2 444 2 4 6
+list_events cal2
+subscribe alex cal2
+subscribe alex cal1
+subscribe alex cal3
+subscribe josh cal2
+add_event cal3 fuck 1 2 3
+add_event cal1 dam 1 2 3
+subscribe daniel cal1
+add_calendar cal4
+ 

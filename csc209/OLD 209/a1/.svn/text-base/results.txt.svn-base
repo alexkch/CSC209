@@ -1,0 +1,36 @@
+Kao-Tsun Chang c2changk
+0,1,2097,/u/csc209h/winter/pub/bin/checkstep1 ,Step 1 successfully completed.
+1,2,2097,/u/csc209h/winter/pub/bin/checkstep2 ,The SHELL variable is not bash
+0,2,2097,/u/csc209h/winter/pub/bin/checkstep2 ,Step 2 successfully completed.
+1,3,2097,/u/csc209h/winter/pub/bin/checkstep3 ,The PATH variable does not contain a path to /u/csc209h/winter/pub/bin.
+0,3,2097,/u/csc209h/winter/pub/bin/checkstep3 ,Step 3 successfully completed.
+0,3,2097,checkstep3 ,Step 3 successfully completed.
+0,3,2097,checkstep3 ,Step 3 successfully completed.
+0,3,2097,checkstep3 ,Step 3 successfully completed.
+0,5,2097,checkstep5 ,Step 5 successfully completed.
+0,3,2097,checkstep3 ,Step 3 successfully completed.
+0,6,2097,checkstep6 ,Step 6 successfully completed.
+1,71,2097,checkstep71 -p 41472 ,The process does not exist
+1,71,2097,checkstep71 -p 41472 ,The process does not exist
+0,71,2097,checkstep71 -p 41758 ,Step 7.1 successfully completed.
+1,72,2097,checkstep72 ,There still seem to be some longproc processes running.
+0,72,2097,checkstep72 ,Step 7.2 successfully completed.
+0,8,2097,checkstep8 -n 137 ,Step 8 successfully completed.
+1,7,2097,checkstep7 -p 46315 ,You must use a relative path
+1,7,2097,checkstep7 -6369 ,Bad call
+1,7,2097,checkstep7 -p 46315 ,You must use a relative path
+1,7,2097,checkstep7 -p 46315 ,You must use a relative path
+1,7,2097,checkstep7 -p 46315 ,You must use a relative path
+1,7,2097,checkstep7 -p 46315 ,You must use a relative path
+1,7,2097,checkstep7 -p6671 ,PID not found
+1,7,2097,checkstep7 -p6671 ,PID not found
+1,7,2097,checkstep7 -p 46671 ,PID not found
+1,7,2097,checkstep7 -p 46671 ,PID not found
+1,7,2097,checkstep7 -p 46671 ,PID not found
+1,7,2097,checkstep7 -p 46315 ,You must use a relative path
+0,7,2097,checkstep7 -p 47492 ,Step 7 successfully completed.
+0,71,2097,checkstep71 -p 47492 ,Step 7.1 successfully completed.
+1,72,2097,checkstep72 -p 47492 ,There still seem to be some longproc processes running.
+1,72,2097,checkstep72 -p 47492 ,There still seem to be some longproc processes running.
+1,72,2097,checkstep72 -p 47492 ,There still seem to be some longproc processes running.
+0,72,2097,checkstep72 -p 47492 ,Step 7.2 successfully completed.
